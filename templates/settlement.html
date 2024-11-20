@@ -1,0 +1,412 @@
+{% extends "base.html" %}
+
+{% block title %}Settlement{% endblock %}
+
+{% block content %}
+
+<style>
+    table, th, td {
+        padding: 8px;
+        text-align: left;
+        font-size: 0.85rem;
+        border: none !important;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        border: none !important;
+    }
+
+    /* Full width to ensure the flex container occupies the whole page */
+    .full-width {
+        width: 100%;
+        padding: 0 20px; /* Add padding for breathing space */
+    }
+
+    .proportional-columns tbody td {
+        width: 60%;
+    }
+    .proportional-columns tbody td:nth-child(2) {
+        width: 20%;
+    }
+    .proportional-columns tbody td:nth-child(3) {
+        width: 20%;
+    }
+
+    .flex-container {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    /* First and Second Columns */
+    .first-column, .second-column {
+        flex: 1; /* Equal width for both columns */
+        display: flex;
+        flex-direction: column; /* Stack sections vertically */
+    }
+
+    /* Adjust the flex-grow ratios to create a 1:1 split */
+    .vat-container { flex: 1; }
+    .settlement-container { flex: 1; }
+
+    /* Card Containers */
+    .card-container {
+        border-radius: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* Header Title Styling */
+    .header-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    /* Specific Color Schemes for Sections */
+    .vat-payable-container {
+        background-color: white; /* Light blue for VAT Section */
+    }
+    .settlement-summary-container {
+        background-color: white; /* Light yellow for Settlement Summary */
+    }
+    .revenue-summary-container {
+        background-color: white; /* Light pink for Revenue Summary */
+    }
+    .insurance-summary-container {
+        background-color: white; /* Light green for Insurance Summary */
+    }
+    profit-summary-container {
+        background-color: white;
+    }
+
+    /* Horizontal Line Styling */
+    .horizontal-line td, .horizontal-line th {
+        border-bottom: 1px solid black !important;
+    }
+
+    .total-line { border-top: 2px solid black !important; }
+
+    /* Tooltip Styling */
+    .info-icon {
+        font-size: 0.6rem;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+
+    .save-data-container {
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: center; /* Centers vertically if there's enough height */
+        margin-top: 20px; /* Optional: Add some spacing above the button */
+    }
+    .styled-button {
+        background-color: #87CEEB; /* Consistent blue color */
+        color: white; /* White text */
+        font-size: 1.5rem;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        padding: 15px 30px; /* Padding to make the button bigger */
+        cursor: pointer;
+        text-align: center; /* Center text */
+        width: 400px;
+    }
+    .styled-button:hover {
+        background-color: #0056b3; /* Darker blue for hover effect */
+    }
+
+</style>
+
+
+<h1>Settlement</h1>
+
+<div class="flex-container">
+
+    <div class="first-column">
+        <!-- VAT Section (1/2 Width) -->
+        <div class="card-container vat-payable-container vat-container">
+            <h2 class="header-title">VAT Payable</h2>
+            <table class="table proportional-columns">
+                <thead>
+                    <tr style="background-color: #dfe7ff; " class="horizontal-line">
+                        <th>Name</th>
+                        <th>Net Value</th>
+                        <th>VAT</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="horizontal-line">
+                        <td>Hotel Services VAT 8% </td>
+                        <td>{{ "{:.2f}".format(vat_data['Hotel Services Net']) }}</td>
+                        <td>{{ "{:.2f}".format(vat_data['Hotel Services VAT 8%']) }}</td>
+                    </tr>
+                    <tr>
+                        <td>Import of Foreign Services VAT 23% </td>
+                        <td>{{ "{:.2f}".format(vat_data['Import Net']) }}</td>
+                        <td>{{ "{:.2f}".format(vat_data['Import VAT 23%']) }}</td>
+                    </tr>
+                    <tr style="height: 20px;"></tr>
+                    <tr class="total-line">
+                        <td><strong>Total VAT Payable</strong></td>
+                        <td></td>
+                        <td>{{ "{:.2f}".format(vat_data['VAT Payable']) }}</td>
+                    </tr>
+                    <tr style="height: 55px;"></tr>
+                </tbody>
+            </table>
+
+            <h2 class="header-title">VAT Deductible</h2>
+            <table class="table proportional-columns">
+                <thead>
+                    <tr style="background-color: #dfe7ff; " class="horizontal-line">
+                        <th>Name</th>
+                        <th>Net Value</th>
+                        <th>VAT</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="horizontal-line">
+                        <td>Business Operating Expenses</td>
+                        <td>{{ "{:.2f}".format(vat_data['Operating Expenses Net']) }}</td>
+                        <td>{{ "{:.2f}".format(vat_data['Operating Expenses VAT']) }}</td>
+                    </tr>
+                    <tr>
+                        <td>Import of Foreign Services VAT 23%</td>
+                        <td>{{ "{:.2f}".format(vat_data['Import Net']) }}</td>
+                        <td>{{ "{:.2f}".format(vat_data['Import VAT 23%']) }}</td>
+                    </tr>
+                    <tr style="height: 20px;"></tr>
+                    <tr class="total-line">
+                        <td><strong>Total VAT Deductible</strong></td>
+                        <td></td>
+                        <td>{{ "{:.2f}".format(vat_data['VAT Deductible']) }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <!-- Settlement Summary Section (1/2 Width) -->
+        <div class="card-container settlement-summary-container">
+            <h2 class="header-title"> VAT Settlement Summary</h2>
+            <table class="table proportional-columns">
+                <tbody>
+                <tr style="background-color: #fff6df; " class="horizontal-line">
+                    <th>Name</th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td>In the month was achieved a surplus of VAT {{ vat_data['Which Surplus'] }}</td>
+                    <td>{{ "{:.2f}".format(vat_data['Month VAT']) }}</td>
+                </tr>
+                <tr class="horizontal-line">
+                    <td>VAT tax from the previous billing period</td>
+                    <td>{{ "{:.2f}".format(vat_data['Ex-Surplus']) }}</td>
+                </tr>
+                <tr class="total-line">
+                    <td><strong>VAT tax to pay</strong></td>
+                    <td>{{ "{:.2f}".format(vat_data['VAT to pay']) }}</td>
+                </tr>
+                <tr>
+                    <td><strong>VAT tax for the next billing period</strong></td>
+                    <td>{{ "{:.2f}".format(vat_data['Surplus']) }}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <div class="second-column">
+            <!-- Revenue Summary Section (Stacked below the Settlement Summary) -->
+        <div class="card-container revenue-summary-container">
+            <h2 class="header-title">Revenue Summary</h2>
+            <table class="table proportional-columns">
+                <thead>
+                    <tr style="background-color: #ffdff1; " class="horizontal-line">
+                        <th>Name</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Revenue</td>
+                        <td>{{ "{:.2f}".format(vat_data['Hotel Services Net']) }}</td>
+                    </tr>
+                    <tr>
+                        <td>Operating Expenses Net</td>
+                        <td>{{ "{:.2f}".format(vat_data['VAT Deductible Base']) }}</td>
+                    </tr>
+                    <tr class="total-line">
+                        <td><strong>Income</strong></td>
+                        <td>{{ "{:.2f}".format(vat_data['Income']) }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+            <div class="card-container insurance-summary-container">
+                <h2 style="margin-bottom: 0px; " class="header-title">Insurance</h2>
+                <table class="table proportional-columns">
+                    <tbody>
+                        <tr>
+                            <td style="color: #45dec4"><strong>Social Insurance</strong></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr style="background-color: #cffff7; " class="horizontal-line">
+                            <td>Name</td>
+                            <td>Percentage</td>
+                            <td>Value</td>
+                        </tr>
+                        <tr>
+                            <td>Pension Insurance</td>
+                            <td>19,52%</td>
+                            <td>{{ "{:.2f}".format(vat_data['Pension Insurance']) }}</td>
+                        </tr>
+                        <tr>
+                            <td>Disability Insurance</td>
+                            <td>8%</td>
+                            <td>{{ "{:.2f}".format(vat_data['Disability Insurance']) }}</td>
+                        </tr>
+                        <tr>
+                            <td>Accident Insurance</td>
+                            <td>1,67%</td>
+                            <td>{{ "{:.2f}".format(vat_data['Accident Insurance']) }}</td>
+                        </tr>
+                        <tr>
+                            <td>Labour Fund</td>
+                            <td>2,45%</td>
+                            <td>{{ "{:.2f}".format(vat_data['Labour Fund']) }}</td>
+                        </tr>
+                        <tr style="height: 20px;"></tr>
+                        <tr class="total-line" style="padding-top: 20px;">
+                            <td><strong>Total Insurance</strong></td>
+                            <td></td>
+                            <td>{{ "{:.2f}".format(vat_data['Social Insurance']) }}</td>
+                        </tr>
+                        <tr>
+                            <td style="color: #45dec4"><strong>Health Insurance</strong></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr style="background-color: #cffff7; " class="horizontal-line">
+                            <td>Name</td>
+                            <td>Percentage</td>
+                            <td>Value</td>
+                        </tr>
+                        <tr>
+                            <td>Health Insurance</td>
+                            <td>9%</td>
+                            <td>{{ "{:.2f}".format(vat_data['Health Insurance']) }}</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+        <div class="card-container profit-summary-container">
+            <h2 class="header-title">Net Profit</h2>
+            <table class="table proportional-columns">
+                <tr style="background-color: #e5d8ff; " class="horizontal-line">
+                    <td>Name</td>
+                    <td></td>
+                    <td>Value</td>
+                </tr>
+                <tr>
+                    <td>Tax Base</td>
+                    <td></td>
+                    <td>{{ "{:.2f}".format(vat_data['Tax Base']) }}</td>
+                </tr>
+                <tr>
+                    <td>Income Tax</td>
+                    <td></td>
+                    <td>{{ "{:.2f}".format(vat_data['Income Tax']) }}</td>
+                </tr>
+                <tr class="total-line">
+                    <td><strong>Net Profit</strong></td>
+                    <td></td>
+                    <td><strong>{{ "{:.2f}".format(vat_data['Net Profit']) }}</strong></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="save-data-container">
+    <button class="styled-button" onclick="saveDataToFile()">Save Data To File</button>
+</div>
+
+<script>
+    function saveDataToFile() {
+        // Prepare the data from the page
+        const vatData = {
+            year: "{{ filter_data.get('year', '2024') }}",  // Provide default value if filter_data is undefined
+            month: "{{ filter_data.get('month', '01') }}",  // Provide default value if filter_data is undefined
+            settlement_data: {
+                "VAT": [
+                    {
+                        "Payable": "{{ "{:.2f}".format(vat_data['VAT Payable']) }}",
+                        "Deductible": "{{ "{:.2f}".format(vat_data['VAT Deductible']) }}",
+                        "Settlement": "{{ "{:.2f}".format(vat_data['VAT to pay']) }}",
+                        "Surplus": "{{ "{:.2f}".format(vat_data['Surplus']) }}"
+                    }
+                ],
+                "Income Settlement": [
+                    {
+                        "Total Sales": "{{ "{:.2f}".format(vat_data['Total Sales']) }}",
+                        "Revenue": "{{ "{:.2f}".format(vat_data['Hotel Services Net']) }}",
+                        "Expenses Net": "{{ "{:.2f}".format(vat_data['VAT Deductible Base']) }}",
+                        "Income": "{{ "{:.2f}".format(vat_data['Income']) }}",
+                        "Tax base": "{{ "{:.2f}".format(vat_data['Tax Base']) }}",
+                        "Income tax": "{{ "{:.2f}".format(vat_data['Income Tax']) }}",
+                        "Net profit": "{{ "{:.2f}".format(vat_data['Net Profit']) }}"
+                    }
+                ],
+                "ZUS": [
+                    {
+                        "Retirement Insurance": "{{ "{:.2f}".format(vat_data['Pension Insurance']) }}",
+                        "Disability Insurance": "{{ "{:.2f}".format(vat_data['Disability Insurance']) }}",
+                        "Sickness Insurance": 0,
+                        "Accident Insurance": "{{ "{:.2f}".format(vat_data['Accident Insurance']) }}",
+                        "Labour Fund": "{{ "{:.2f}".format(vat_data['Labour Fund']) }}",
+                        "Health Insurance": "{{ "{:.2f}".format(vat_data['Health Insurance']) }}"
+                    }
+                ]
+            }
+        };
+
+        // Send the data to the server using fetch
+        fetch('/settlement/save_to_file', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(vatData),
+        })
+        .then(response => {
+            if (response.ok) {
+                return response.json();
+            } else {
+                throw new Error('Failed to save data');
+            }
+        })
+        .then(data => {
+            console.log('Success:', data);
+            alert('Data saved successfully!');
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+            alert('Failed to save data');
+        });
+    }
+</script>
+
+
+{% endblock %}

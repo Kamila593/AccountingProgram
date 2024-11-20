@@ -1,0 +1,3710 @@
+[
+    {
+        "Date": "2023-01-01",
+        "Guest": "Lucas van Dijk",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-01-02",
+        "Guest": "Lucas van Dijk",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-01-05",
+        "Guest": "Fatou Diallo",
+        "Standard": 420,
+        "Number of people": 3,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-01-06",
+        "Guest": "Fatou Diallo",
+        "Standard": 420,
+        "Number of people": 3,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-01-07",
+        "Guest": "Fatou Diallo",
+        "Standard": 420,
+        "Number of people": 3,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-01-11",
+        "Guest": "Mateo Rodriguez",
+        "Standard": 420,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "22.3%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-01-12",
+        "Guest": "Mateo Rodriguez",
+        "Standard": 420,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "22.3%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-01-13",
+        "Guest": "Mateo Rodriguez",
+        "Standard": 420,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "22.3%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-01-12",
+        "Guest": "Mateo Rodriguez",
+        "Standard": 420,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "22.3%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-01-17",
+        "Guest": "Eva Stojanovic",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "25%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-01-18",
+        "Guest": "Eva Stojanovic",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "25%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-01-19",
+        "Guest": "Eva Stojanovic",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "25%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-01-20",
+        "Guest": "Eva Stojanovic",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "25%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-01-21",
+        "Guest": "Eva Stojanovic",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "25%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-01-23",
+        "Guest": "Lukas Schmidt",
+        "Standard": 420,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-01-26",
+        "Guest": "Chantal Rousseau",
+        "Standard": 420,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-01-27",
+        "Guest": "Chantal Rousseau",
+        "Standard": 420,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-01-28",
+        "Guest": "Chantal Rousseau",
+        "Standard": 420,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-02-03",
+        "Guest": "Luka Maric",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-02-04",
+        "Guest": "Luka Maric",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-02-05",
+        "Guest": "Luka Maric",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-02-06",
+        "Guest": "Oskar Nowak",
+        "Standard": 435,
+        "Number of people": 3,
+        "Offer": "10%",
+        "Genius": "0%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-02-07",
+        "Guest": "Oskar Nowak",
+        "Standard": 435,
+        "Number of people": 3,
+        "Offer": "10%",
+        "Genius": "0%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-02-08",
+        "Guest": "Amelie Laurent",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-02-09",
+        "Guest": "Amelie Laurent",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-02-10",
+        "Guest": "Amelie Laurent",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-02-11",
+        "Guest": "Amelie Laurent",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-02-13",
+        "Guest": "Sofie Nielsen",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-02-14",
+        "Guest": "Sofie Nielsen",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-02-15",
+        "Guest": "Sofie Nielsen",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-02-17",
+        "Guest": "Dmitry Sokolov",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-02-21",
+        "Guest": "Dmitry Sokolov",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-02-22",
+        "Guest": "Dmitry Sokolov",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-02-24",
+        "Guest": "Isla MacDonald",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-02-25",
+        "Guest": "Isla MacDonald",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-02",
+        "Guest": "Anika Fischer",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "5%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-03",
+        "Guest": "Anika Fischer",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "5%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-04",
+        "Guest": "Anika Fischer",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "5%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-06",
+        "Guest": "Diego Herrera",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-07",
+        "Guest": "Diego Herrera",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-08",
+        "Guest": "Diego Herrera",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-09",
+        "Guest": "Diego Herrera",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-10",
+        "Guest": "Diego Herrera",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-14",
+        "Guest": "Natalia S\u00e1nchez",
+        "Standard": 435.0,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "23%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-15",
+        "Guest": "Natalia S\u00e1nchez",
+        "Standard": 435.0,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "23%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-16",
+        "Guest": "Teresa Sherpa",
+        "Standard": 435,
+        "Number of people": 3,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-17",
+        "Guest": "Teresa Sherpa",
+        "Standard": 435,
+        "Number of people": 3,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-18",
+        "Guest": "Marek Szkot",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-19",
+        "Guest": "Marek Szkot",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-20",
+        "Guest": "Marek Szkot",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-23",
+        "Guest": "Elena Petrova",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-24",
+        "Guest": "Elena Petrova",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-25",
+        "Guest": "Elena Petrova",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-26",
+        "Guest": "Marta Nelson",
+        "Standard": 435,
+        "Number of people": 3,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-27",
+        "Guest": "Marta Nelson",
+        "Standard": 435,
+        "Number of people": 3,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-30",
+        "Guest": "Paulo Quintana",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-03-31",
+        "Guest": "Paulo Quintana",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-04-01",
+        "Guest": "Paulo Quintana",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-04-04",
+        "Guest": "Chiara Pirelli",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "22%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-04-05",
+        "Guest": "Chiara Pirelli",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "22%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-04-06",
+        "Guest": "Chiara Pirelli",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "22%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-04-07",
+        "Guest": "Chiara Pirelli",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "22%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-04-08",
+        "Guest": "Chiara Pirelli",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "22%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-04-09",
+        "Guest": "Chiara Pirelli",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "22%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-04-10",
+        "Guest": "Chiara Pirelli",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "22%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-04-14",
+        "Guest": "Gabriel Kozlovic",
+        "Standard": 435,
+        "Number of people": 3,
+        "Offer": "5%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-04-15",
+        "Guest": "Gabriel Kozlovic",
+        "Standard": 435,
+        "Number of people": 3,
+        "Offer": "5%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-04-20",
+        "Guest": "Leila Haddad",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-04-21",
+        "Guest": "Leila Haddad",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-04-22",
+        "Guest": "Leila Haddad",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-04-23",
+        "Guest": "Leila Haddad",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-04-25",
+        "Guest": "Chloe Lefebvre",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "22%"
+    },
+    {
+        "Date": "2023-04-26",
+        "Guest": "Chloe Lefebvre",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "22%"
+    },
+    {
+        "Date": "2023-04-27",
+        "Guest": "Chloe Lefebvre",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "22%"
+    },
+    {
+        "Date": "2023-05-01",
+        "Guest": "Alina Ivanova",
+        "Standard": 450,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-05-02",
+        "Guest": "Alina Ivanova",
+        "Standard": 450,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-05-04",
+        "Guest": "Paolo Ricci",
+        "Standard": 450,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "0%",
+        "Commission %": "18%"
+    },
+    {
+        "Date": "2023-05-05",
+        "Guest": "Paolo Ricci",
+        "Standard": 450,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "0%",
+        "Commission %": "18%"
+    },
+    {
+        "Date": "2023-05-06",
+        "Guest": "Sofia Petrescu",
+        "Standard": 450,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-05-07",
+        "Guest": "Sofia Petrescu",
+        "Standard": 450,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-05-08",
+        "Guest": "Sofia Petrescu",
+        "Standard": 450,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-05-10",
+        "Guest": "Em\u00edlia Bal\u00e1\u017eov\u00e1",
+        "Standard": 450,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "22%"
+    },
+    {
+        "Date": "2023-05-11",
+        "Guest": "Em\u00edlia Bal\u00e1\u017eov\u00e1",
+        "Standard": 450,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "22%"
+    },
+    {
+        "Date": "2023-05-12",
+        "Guest": "Frederik Jensen",
+        "Standard": 450,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "25%"
+    },
+    {
+        "Date": "2023-05-13",
+        "Guest": "Frederik Jensen",
+        "Standard": 450,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "25%"
+    },
+    {
+        "Date": "2023-05-15",
+        "Guest": "Benjamin Carter",
+        "Standard": 377.5,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2023-05-16",
+        "Guest": "Benjamin Carter",
+        "Standard": 377.5,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2023-05-17",
+        "Guest": "Benjamin Carter",
+        "Standard": 377.5,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2023-05-18",
+        "Guest": "Benjamin Carter",
+        "Standard": 377.5,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-05-19",
+        "Guest": "Benjamin Carter",
+        "Standard": 377.5,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-05-20",
+        "Guest": "Benjamin Carter",
+        "Standard": 377.5,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-05-21",
+        "Guest": "Benjamin Carter",
+        "Standard": 377.5,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-05-22",
+        "Guest": "Benjamin Carter",
+        "Standard": 377.5,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-05-23",
+        "Guest": "Benjamin Carter",
+        "Standard": 377.5,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-05-24",
+        "Guest": "Benjamin Carter",
+        "Standard": 377.5,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-05-25",
+        "Guest": "Benjamin Carter",
+        "Standard": 377.5,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-06-02",
+        "Guest": "Alejandro Lel",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-06-03",
+        "Guest": "Alejandro Lel",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-06-04",
+        "Guest": "Alejandro Lel",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-06-05",
+        "Guest": "Alejandro Lel",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-06-09",
+        "Guest": "Elif Kaya",
+        "Standard": 420,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-06-10",
+        "Guest": "Elif Kaya",
+        "Standard": 420,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-06-16",
+        "Guest": "Fatima Al-Mansouri",
+        "Standard": 435,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-06-17",
+        "Guest": "Fatima Al-Mansouri",
+        "Standard": 435,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-06-28",
+        "Guest": "James Walker",
+        "Standard": 450.0,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-06-29",
+        "Guest": "James Walker",
+        "Standard": 450.0,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-06-30",
+        "Guest": "Hassan El-Sayed",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "20%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-07-01",
+        "Guest": "Hassan El-Sayed",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "20%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-07-07",
+        "Guest": "Catherine Spencer",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "10%",
+        "Genius": "0%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-07-08",
+        "Guest": "Catherine Spencer",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "10%",
+        "Genius": "0%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-07-14",
+        "Guest": "Santiago Peralta",
+        "Standard": 420,
+        "Number of people": 3,
+        "Offer": "0%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-07-15",
+        "Guest": "Santiago Peralta",
+        "Standard": 420,
+        "Number of people": 3,
+        "Offer": "0%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-07-21",
+        "Guest": "Yuki Tanaka",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-07-22",
+        "Guest": "Yuki Tanaka",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-07-28",
+        "Guest": "Charlotte Dubois",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "5%",
+        "Genius": "25%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-07-29",
+        "Guest": "Charlotte Dubois",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "5%",
+        "Genius": "25%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-08-04",
+        "Guest": "Lucas van Bjorn",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-08-05",
+        "Guest": "Lucas van Bjorn",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-08-11",
+        "Guest": "Henrik Lund",
+        "Standard": 420,
+        "Number of people": 3,
+        "Offer": "20%",
+        "Genius": "0%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-08-12",
+        "Guest": "Henrik Lund",
+        "Standard": 420,
+        "Number of people": 3,
+        "Offer": "20%",
+        "Genius": "0%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-08-19",
+        "Guest": "Liam O'Neill",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-08-20",
+        "Guest": "Liam O'Neill",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-08-21",
+        "Guest": "Liam O'Neill",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-08-25",
+        "Guest": "Jeroen van der Meer",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-08-26",
+        "Guest": "Jeroen van der Meer",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-01",
+        "Guest": "Katerina Georgiou",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-05-26",
+        "Guest": "Daniela Flores",
+        "Standard": 450.0,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "18%"
+    },
+    {
+        "Date": "2023-05-27",
+        "Guest": "Daniela Flores",
+        "Standard": 450.0,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "18%"
+    },
+    {
+        "Date": "2023-06-22",
+        "Guest": "Ana Rodr\u0102\u00adedguez",
+        "Standard": 450.0,
+        "Number of people": 2,
+        "Offer": "25%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-06-23",
+        "Guest": "Ana Rodr\u0102\u00adguez",
+        "Standard": 450.0,
+        "Number of people": 2,
+        "Offer": "25%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-06-24",
+        "Guest": "Camila Souza",
+        "Standard": 450.0,
+        "Number of people": 2,
+        "Offer": "20%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-06-25",
+        "Guest": "Camila Souza",
+        "Standard": 450.0,
+        "Number of people": 2,
+        "Offer": "20%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-07-11",
+        "Guest": "Mateo Gonzalez",
+        "Standard": 450.0,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2023-07-12",
+        "Guest": "Mateo Gonzalez",
+        "Standard": 450.0,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2023-07-13",
+        "Guest": "Mateo Gonzalez",
+        "Standard": 450.0,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2023-07-26",
+        "Guest": "Ethan McAllister",
+        "Standard": 450.0,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2023-07-27",
+        "Guest": "Ethan McAllister",
+        "Standard": 450.0,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2023-07-19",
+        "Guest": "Noah Campbell",
+        "Standard": 450.0,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2023-07-20",
+        "Guest": "Noah Campbell",
+        "Standard": 450.0,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2023-08-03",
+        "Guest": "William Fraser",
+        "Standard": 420.0,
+        "Number of people": 2,
+        "Offer": "20%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-08-13",
+        "Guest": "Aiden Campbell",
+        "Standard": 420.0,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-08-14",
+        "Guest": "Aiden Campbell",
+        "Standard": 420.0,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-08-15",
+        "Guest": "Aiden Campbell",
+        "Standard": 420.0,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-08-16",
+        "Guest": "Aiden Campbell",
+        "Standard": 420.0,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-08-17",
+        "Guest": "Aiden Campbell",
+        "Standard": 420.0,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-08-18",
+        "Guest": "Aiden Campbell",
+        "Standard": 420.0,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-08-23",
+        "Guest": "Juan \u00c1lvarez",
+        "Standard": 420.0,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2023-08-24",
+        "Guest": "Juan \u00c1lvarez",
+        "Standard": 420.0,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2023-08-30",
+        "Guest": "Abigail Morgan",
+        "Standard": 435.0,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-08-31",
+        "Guest": "Abigail Morgan",
+        "Standard": 435.0,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-03",
+        "Guest": "Ewa Wi\u015bniewska",
+        "Standard": 450.0,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-04",
+        "Guest": "Ewa Wi\u015bniewska",
+        "Standard": 450.0,
+        "Number of people": 1,
+        "Offer": "20%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-05",
+        "Guest": "Ewa Wi\u015bniewska",
+        "Standard": 450.0,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "22%"
+    },
+    {
+        "Date": "2023-09-07",
+        "Guest": "Pierre Lemoine",
+        "Standard": 450.0,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2023-09-12",
+        "Guest": "Anna Vesel\u00e1",
+        "Standard": 450.0,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-13",
+        "Guest": "Anna Vesel\u00e1",
+        "Standard": 450.0,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-14",
+        "Guest": "Tomasz Nowicki",
+        "Standard": 450.0,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "24%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-18",
+        "Guest": "Sigrid H\u00e5kansson",
+        "Standard": 450.0,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-19",
+        "Guest": "Sigrid H\u00e5kansson",
+        "Standard": 450.0,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-20",
+        "Guest": "Sigrid H\u00e5kansson",
+        "Standard": 450.0,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-21",
+        "Guest": "Sigrid H\u00e5kansson",
+        "Standard": 450.0,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-25",
+        "Guest": "Victoria Harris",
+        "Standard": 450.0,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-26",
+        "Guest": "Victoria Harris",
+        "Standard": 450.0,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-27",
+        "Guest": "Victoria Harris",
+        "Standard": 450.0,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-10-01",
+        "Guest": "Pierro Castro",
+        "Standard": 410.0,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-10-02",
+        "Guest": "Pierro Castro",
+        "Standard": 410.0,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-10-03",
+        "Guest": "Pierro Castro",
+        "Standard": 410.0,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-02",
+        "Guest": "Katerina Georgiou",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-08",
+        "Guest": "Andrzej Kownacki",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-09",
+        "Guest": "Andrzej Kownacki",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-15",
+        "Guest": "Ingrid Nilsen",
+        "Standard": 435,
+        "Number of people": 3,
+        "Offer": "5%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-16",
+        "Guest": "Ingrid Nilsen",
+        "Standard": 435,
+        "Number of people": 3,
+        "Offer": "5%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-22",
+        "Guest": "Taro Yamamoto",
+        "Standard": 420,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "0%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-23",
+        "Guest": "Taro Yamamoto",
+        "Standard": 420,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "0%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-24",
+        "Guest": "Taro Yamamoto",
+        "Standard": 420,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "0%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-28",
+        "Guest": "Eva Novak",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-29",
+        "Guest": "Eva Novak",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-09-30",
+        "Guest": "Eva Novak",
+        "Standard": 435,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-10-06",
+        "Guest": "Zuzana \u00c4\u015aern\u0102\u02c7",
+        "Standard": 420,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-10-07",
+        "Guest": "Zuzana \u00c4\u015aern\u0102\u02c7",
+        "Standard": 420,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-10-12",
+        "Guest": "Bj\u0102\u00b6rn Eriksson",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "5%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-10-13",
+        "Guest": "Bj\u0102\u00b6rn Eriksson",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "5%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-10-14",
+        "Guest": "Bj\u0102\u00b6rn Eriksson",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "5%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-10-19",
+        "Guest": "Amara Okafor",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-10-20",
+        "Guest": "Amara Okafor",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-10-21",
+        "Guest": "Amara Okafor",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-10-23",
+        "Guest": "Logan Baker",
+        "Standard": 410,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-10-24",
+        "Guest": "Logan Baker",
+        "Standard": 410,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-10-25",
+        "Guest": "Logan Baker",
+        "Standard": 410,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-10-26",
+        "Guest": "Logan Baker",
+        "Standard": 410,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-10-27",
+        "Guest": "Logan Baker",
+        "Standard": 410,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-10-28",
+        "Guest": "Logan Baker",
+        "Standard": 410,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-10-29",
+        "Guest": "Logan Baker",
+        "Standard": 410,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-11-03",
+        "Guest": "Monica Campbell",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-11-04",
+        "Guest": "Monica Campbell",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-11-05",
+        "Guest": "Monica Campbell",
+        "Standard": 435,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-11-07",
+        "Guest": "Rafael Ortiz",
+        "Standard": 415,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-11-08",
+        "Guest": "Rafael Ortiz",
+        "Standard": 415,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-11-10",
+        "Guest": "Amina Hassan",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-11-11",
+        "Guest": "Amina Hassan",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-11-12",
+        "Guest": "Amina Hassan",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-11-13",
+        "Guest": "Amina Hassan",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-11-17",
+        "Guest": "Carlos Andrade",
+        "Standard": 435,
+        "Number of people": 3,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-11-18",
+        "Guest": "Carlos Andrade",
+        "Standard": 435,
+        "Number of people": 3,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-12-01",
+        "Guest": "Damiano Diallo",
+        "Standard": 415,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-12-02",
+        "Guest": "Damiano Diallo",
+        "Standard": 415,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-12-03",
+        "Guest": "Damiano Diallo",
+        "Standard": 415,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-12-04",
+        "Guest": "Damiano Diallo",
+        "Standard": 415,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-12-08",
+        "Guest": "Tenzing Sherpa",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-12-09",
+        "Guest": "Tenzing Sherpa",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-12-15",
+        "Guest": "Valentina Navarro",
+        "Standard": 435,
+        "Number of people": 3,
+        "Offer": "5%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-12-16",
+        "Guest": "Valentina Navarro",
+        "Standard": 435,
+        "Number of people": 3,
+        "Offer": "5%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-12-22",
+        "Guest": "Peter Spencer",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "21%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-12-23",
+        "Guest": "Peter Spencer",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "21%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-12-24",
+        "Guest": "Peter Spencer",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "21%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-12-25",
+        "Guest": "Peter Spencer",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "21%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2023-12-26",
+        "Guest": "Peter Spencer",
+        "Standard": 420,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "21%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-01-02",
+        "Guest": "John Doe",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "26.4%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-01-03",
+        "Guest": "John Doe",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "26.4%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-01-05",
+        "Guest": "Jason Smith",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "26.9%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-01-06",
+        "Guest": "Jason Smith",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "26.9%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-01-07",
+        "Guest": "Jason Smith",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "26.9%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-01-10",
+        "Guest": "Julia Murray",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20.3%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-01-11",
+        "Guest": "Julia Murray",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20.3%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-01-12",
+        "Guest": "Mariah Carey",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "12%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2024-01-13",
+        "Guest": "Mariah Carey",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "12%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2024-01-14",
+        "Guest": "Mariah Carey",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "30%",
+        "Commission %": "25%"
+    },
+    {
+        "Date": "2024-01-19",
+        "Guest": "Damian Rodysiewicz",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "10%",
+        "Genius": "23%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-01-20",
+        "Guest": "Damian Rodysiewicz",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "10%",
+        "Genius": "23%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-01-22",
+        "Guest": "Katarzyna Wysocka",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-01-23",
+        "Guest": "Katarzyna Wysocka",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-01-24",
+        "Guest": "Katarzyna Wysocka",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-01-26",
+        "Guest": "Marek Ratajczak",
+        "Standard": 515,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-01-27",
+        "Guest": "Marek Ratajczak",
+        "Standard": 515,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-01-28",
+        "Guest": "Ansgar Vogt",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-01-29",
+        "Guest": "Ansgar Vogt",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-02-02",
+        "Guest": "Christian Pale",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-02-03",
+        "Guest": "Christian Pale",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-02-05",
+        "Guest": "Oliver Smith",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-02-06",
+        "Guest": "Oliver Smith",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-02-07",
+        "Guest": "Oliver Smith",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-02-08",
+        "Guest": "Oliver Smith",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-02-09",
+        "Guest": "Jakub Nov\u00e1k",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-02-10",
+        "Guest": "Jakub Nov\u00e1k",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-02-11",
+        "Guest": "Jakub Nov\u00e1k",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-02-14",
+        "Guest": "Ilona Kowalska",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "27%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-02-15",
+        "Guest": "Ilona Kowalska",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "27%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-02-16",
+        "Guest": "Ilona Kowalska",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "27%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-02-17",
+        "Guest": "Christopher Smith",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "20%",
+        "Genius": "18%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-02-20",
+        "Guest": "Miroslav Hrulovek",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "12%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-02-22",
+        "Guest": "Emily Clarke",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-02-23",
+        "Guest": "Emily Clarke",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-02-24",
+        "Guest": "Emily Clarke",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-02-29",
+        "Guest": "Camille Lagrange",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-03-01",
+        "Guest": "Jack Lee",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "12%",
+        "Genius": "15%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2024-03-02",
+        "Guest": "Jack Lee",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "12%",
+        "Genius": "15%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2024-03-05",
+        "Guest": "Morgan Meren",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-03-06",
+        "Guest": "Morgan Meren",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-03-07",
+        "Guest": "Morgan Meren",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-03-08",
+        "Guest": "Jacob Smith",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "8%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-03-09",
+        "Guest": "Jacob Smith",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "8%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-03-13",
+        "Guest": "Amanda Wylde",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-03-14",
+        "Guest": "Amanda Wylde",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-03-15",
+        "Guest": "Amanda Wylde",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-03-16",
+        "Guest": "Amanda Wylde",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-03-17",
+        "Guest": "Amanda Wylde",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-03-20",
+        "Guest": "Miroslav Sedlak",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-03-21",
+        "Guest": "Miroslav Sedlak",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-03-22",
+        "Guest": "Miroslav Sedlak",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-03-23",
+        "Guest": "Femke de Vries",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-03-24",
+        "Guest": "Chloe Moreau",
+        "Standard": 515,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2024-03-25",
+        "Guest": "Chloe Moreau",
+        "Standard": 515,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2024-03-26",
+        "Guest": "Chloe Moreau",
+        "Standard": 515,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2024-03-29",
+        "Guest": "Mindaugas Petrauskas",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-03-30",
+        "Guest": "Mindaugas Petrauskas",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-02",
+        "Guest": "Sarah Parker",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-03",
+        "Guest": "Sarah Parker",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-04",
+        "Guest": "Sarah Parker",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-05",
+        "Guest": "Sarah Parker",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-06",
+        "Guest": "Hu Jang",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-07",
+        "Guest": "Hu Jang",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-09",
+        "Guest": "Jadwiga Popowicz",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-10",
+        "Guest": "Jadwiga Popowicz",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "26%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-12",
+        "Guest": "Kevin Boner",
+        "Standard": 515,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "13.3%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-13",
+        "Guest": "Kevin Boner",
+        "Standard": 515,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "13.3%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-15",
+        "Guest": "Paulina Trela",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "13.3%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-16",
+        "Guest": "Paulina Trela",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "13.3%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-17",
+        "Guest": "Paulina Trela",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "13.3%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-19",
+        "Guest": "James Rutherford",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-20",
+        "Guest": "Maja Peralska",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "18%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-21",
+        "Guest": "Maja Peralska",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "18%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-23",
+        "Guest": "Jakub Svoboda",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "18%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-25",
+        "Guest": "Ludwik Dvorak",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "18%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-26",
+        "Guest": "Ludwik Dvorak",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "18%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-27",
+        "Guest": "Iwona Terewicz",
+        "Standard": 515,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "18%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-28",
+        "Guest": "Iwona Terewicz",
+        "Standard": 515,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "18%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-29",
+        "Guest": "Amelia Kensington",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "12%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-04-30",
+        "Guest": "Amelia Kensington",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "12%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-05-01",
+        "Guest": "Louis Lefevre",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-05-02",
+        "Guest": "Louis Lefevre",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-05-03",
+        "Guest": "Alice Johnson",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "12%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-05-04",
+        "Guest": "Alice Johnson",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "12%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-05-05",
+        "Guest": "Alice Johnson",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "12%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-05-08",
+        "Guest": "Emma Fluffy",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "12%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-05-09",
+        "Guest": "Emma Fluffy",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "12%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-05-12",
+        "Guest": "Sophia White",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-05-13",
+        "Guest": "Sophia White",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-05-15",
+        "Guest": "Jacek Norbel",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-05-16",
+        "Guest": "Jacek Norbel",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-05-18",
+        "Guest": "Oliwia Kluska",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "7%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-05-19",
+        "Guest": "Oliwia Kluska",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "7%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-05-19",
+        "Guest": "Oliwia Kluska",
+        "Standard": 515,
+        "Number of people": 1,
+        "Offer": "7%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-05-21",
+        "Guest": "Antoine Moreau",
+        "Standard": 515,
+        "Number of people": 3,
+        "Offer": "20%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-05-22",
+        "Guest": "Antoine Moreau",
+        "Standard": 515,
+        "Number of people": 3,
+        "Offer": "20%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-01",
+        "Guest": "Henric Nerfield",
+        "Standard": 485,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "0%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-02",
+        "Guest": "Henric Nerfield",
+        "Standard": 485,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "0%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-04",
+        "Guest": "Alejandro L\u00f3pez",
+        "Standard": 485,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "0%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-05",
+        "Guest": "Alejandro L\u00f3pez",
+        "Standard": 485,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-06",
+        "Guest": "Alejandro L\u00f3pez",
+        "Standard": 485,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-07",
+        "Guest": "Alejandro L\u00f3pez",
+        "Standard": 485,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-08",
+        "Guest": "Dmitri Ivanov",
+        "Standard": 485,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-09",
+        "Guest": "Dmitri Ivanov",
+        "Standard": 485,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-10",
+        "Guest": "Dmitri Ivanov",
+        "Standard": 485,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-12",
+        "Guest": "Klaus Fischer",
+        "Standard": 485,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-13",
+        "Guest": "Klaus Fischer",
+        "Standard": 485,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-14",
+        "Guest": "Bj\u00f8rn Johansen",
+        "Standard": 485,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-15",
+        "Guest": "Bj\u00f8rn Johansen",
+        "Standard": 485,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-18",
+        "Guest": "Zuzana \u010cern\u00e1",
+        "Standard": 485,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-19",
+        "Guest": "Zuzana \u010cern\u00e1",
+        "Standard": 485,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-20",
+        "Guest": "Zuzana \u010cern\u00e1",
+        "Standard": 485,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-21",
+        "Guest": "Zuzana \u010cern\u00e1",
+        "Standard": 485,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-22",
+        "Guest": "Zuzana \u010cern\u00e1",
+        "Standard": 485,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-23",
+        "Guest": "Chiara Bellucci",
+        "Standard": 485,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-24",
+        "Guest": "Chiara Bellucci",
+        "Standard": 485,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-06-25",
+        "Guest": "Chiara Bellucci",
+        "Standard": 485,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-07-02",
+        "Guest": "Ah Sahm",
+        "Standard": 515,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "22%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2024-07-03",
+        "Guest": "Ah Sahm",
+        "Standard": 515,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "22%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2024-07-15",
+        "Guest": "Federico Quiroga",
+        "Standard": 440,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-07-16",
+        "Guest": "Federico Quiroga",
+        "Standard": 440,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-07-17",
+        "Guest": "Federico Quiroga",
+        "Standard": 440,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-07-18",
+        "Guest": "Federico Quiroga",
+        "Standard": 440,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-07-19",
+        "Guest": "Federico Quiroga",
+        "Standard": 440,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-07-20",
+        "Guest": "Federico Quiroga",
+        "Standard": 440,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-07-21",
+        "Guest": "Federico Quiroga",
+        "Standard": 440,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-07-22",
+        "Guest": "Federico Quiroga",
+        "Standard": 440,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-07-23",
+        "Guest": "Federico Quiroga",
+        "Standard": 440,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-07-24",
+        "Guest": "Federico Quiroga",
+        "Standard": 440,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-07-25",
+        "Guest": "Federico Quiroga",
+        "Standard": 440,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-07-26",
+        "Guest": "Federico Quiroga",
+        "Standard": 440,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-07-27",
+        "Guest": "Federico Quiroga",
+        "Standard": 440,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-01",
+        "Guest": "Yuki Tanaka",
+        "Standard": 475,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "26%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-02",
+        "Guest": "Pieter van den Berg",
+        "Standard": 475,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "17%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-03",
+        "Guest": "Pieter van den Berg",
+        "Standard": 475,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "17%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-04",
+        "Guest": "Yuki Yamamoto",
+        "Standard": 475,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-05",
+        "Guest": "Yuki Yamamoto",
+        "Standard": 475,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-09",
+        "Guest": "Katrina Petrova",
+        "Standard": 475,
+        "Number of people": 3,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-10",
+        "Guest": "Katrina Petrova",
+        "Standard": 475,
+        "Number of people": 3,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-11",
+        "Guest": "Sofia Dimitrova",
+        "Standard": 475,
+        "Number of people": 3,
+        "Offer": "10%",
+        "Genius": "19%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-12",
+        "Guest": "R\u00e9my Dubois",
+        "Standard": 475,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-13",
+        "Guest": "R\u00e9my Dubois",
+        "Standard": 475,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-16",
+        "Guest": "Oluwaseun Adeyemi",
+        "Standard": 475,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "21%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-17",
+        "Guest": "Oluwaseun Adeyemi",
+        "Standard": 475,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "21%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-18",
+        "Guest": "Liam O'Sullivan",
+        "Standard": 475,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "27%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-21",
+        "Guest": "Isabella Conti",
+        "Standard": 475,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "12%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-22",
+        "Guest": "Isabella Conti",
+        "Standard": 475,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "12%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-23",
+        "Guest": "Isabella Conti",
+        "Standard": 475,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "12%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-24",
+        "Guest": "Isabella Conti",
+        "Standard": 475,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "12%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-26",
+        "Guest": "Marisol Garc\u00eda",
+        "Standard": 475,
+        "Number of people": 2,
+        "Offer": "5%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-08-27",
+        "Guest": "Marisol Garc\u00eda",
+        "Standard": 475,
+        "Number of people": 2,
+        "Offer": "5%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-10-15",
+        "Guest": "Mariah Radler",
+        "Standard": 515,
+        "Number of people": 3,
+        "Offer": "10%",
+        "Genius": "30%",
+        "Commission %": "25%"
+    },
+    {
+        "Date": "2024-11-22",
+        "Guest": "Daniel Craig",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "5%",
+        "Genius": "20%",
+        "Commission %": "10%"
+    },
+    {
+        "Date": "2024-12-12",
+        "Guest": "Julia Turner",
+        "Standard": 515,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "20.3%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-03",
+        "Guest": "Sabina Worzykowska",
+        "Standard": 490.0,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-04",
+        "Guest": "Sabina Worzykowska",
+        "Standard": 490.0,
+        "Number of people": 1,
+        "Offer": "20%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-05",
+        "Guest": "Sabina Worzykowska",
+        "Standard": 490.0,
+        "Number of people": 1,
+        "Offer": "15%",
+        "Genius": "20%",
+        "Commission %": "22%"
+    },
+    {
+        "Date": "2024-09-07",
+        "Guest": "Pierre Morello",
+        "Standard": 490.0,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "15%",
+        "Commission %": "20%"
+    },
+    {
+        "Date": "2024-09-12",
+        "Guest": "Kate Smith",
+        "Standard": 480.0,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-13",
+        "Guest": "Kate Smith",
+        "Standard": 480.0,
+        "Number of people": 3,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-14",
+        "Guest": "Grzegorz Nowicki",
+        "Standard": 450.0,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "24%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-18",
+        "Guest": "Mateusz Kownacki",
+        "Standard": 490.0,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-19",
+        "Guest": "Mateusz Kownacki",
+        "Standard": 490.0,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-20",
+        "Guest": "Mateusz Kownacki",
+        "Standard": 490.0,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-21",
+        "Guest": "Mateusz Kownacki",
+        "Standard": 490.0,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-25",
+        "Guest": "William Relly",
+        "Standard": 490.0,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-26",
+        "Guest": "William Relly",
+        "Standard": 490.0,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-27",
+        "Guest": "William Relly",
+        "Standard": 490.0,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-10-01",
+        "Guest": "Ireneusz Tkacki",
+        "Standard": 510.0,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-10-02",
+        "Guest": "Ireneusz Tkacki",
+        "Standard": 510.0,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-10-03",
+        "Guest": "Ireneusz Tkacki",
+        "Standard": 510.0,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-02",
+        "Guest": "Chris Tucker",
+        "Standard": 505,
+        "Number of people": 2,
+        "Offer": "10%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-09",
+        "Guest": "Anna Wilczak",
+        "Standard": 520,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-15",
+        "Guest": "Anna Krater",
+        "Standard": 535,
+        "Number of people": 3,
+        "Offer": "5%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-16",
+        "Guest": "Anna Krater",
+        "Standard": 505,
+        "Number of people": 3,
+        "Offer": "5%",
+        "Genius": "10%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-22",
+        "Guest": "Joanna Milska",
+        "Standard": 490,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "0%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-23",
+        "Guest": "Joanna Milska",
+        "Standard": 490,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "0%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-24",
+        "Guest": "Joanna Milska",
+        "Standard": 490,
+        "Number of people": 2,
+        "Offer": "15%",
+        "Genius": "0%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-28",
+        "Guest": "Ewelina Nowacka",
+        "Standard": 495,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-29",
+        "Guest": "Ewelina Nowacka",
+        "Standard": 495,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-09-30",
+        "Guest": "Ewelina Nowacka",
+        "Standard": 495,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-10-06",
+        "Guest": "Stefania Paskalska",
+        "Standard": 520,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-10-07",
+        "Guest": "Stefania Paskalska",
+        "Standard": 520,
+        "Number of people": 2,
+        "Offer": "0%",
+        "Genius": "20%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-10-12",
+        "Guest": "Marek Midas",
+        "Standard": 485,
+        "Number of people": 2,
+        "Offer": "5%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-10-13",
+        "Guest": "Marek Midas",
+        "Standard": 485,
+        "Number of people": 2,
+        "Offer": "5%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-10-14",
+        "Guest": "Marek Midas",
+        "Standard": 485,
+        "Number of people": 2,
+        "Offer": "5%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-10-19",
+        "Guest": "Amelia Winston",
+        "Standard": 490,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-10-20",
+        "Guest": "Amelia Winston",
+        "Standard": 490,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-10-21",
+        "Guest": "Amelia Winston",
+        "Standard": 490,
+        "Number of people": 1,
+        "Offer": "10%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-10-23",
+        "Guest": "Robert Now",
+        "Standard": 490,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-10-24",
+        "Guest": "Robert Now",
+        "Standard": 490,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-10-25",
+        "Guest": "Robert Now",
+        "Standard": 490,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-10-26",
+        "Guest": "Robert Now",
+        "Standard": 490,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    },
+    {
+        "Date": "2024-10-27",
+        "Guest": "Robert Now",
+        "Standard": 490,
+        "Number of people": 1,
+        "Offer": "0%",
+        "Genius": "15%",
+        "Commission %": "15%"
+    }
+]

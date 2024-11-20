@@ -1,0 +1,167 @@
+{% extends "base.html" %}
+
+{% block title %}Expenses{% endblock %}
+
+{% block content %}
+    <script>
+        function toggleForm() {
+            var form = document.getElementById("expenseForm");
+            form.style.display = (form.style.display === "none") ? "block" : "none";
+        }
+    </script>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 0.85rem;
+            border: none !important;
+        }
+        th, td {
+             padding: 8px;
+             text-align: left;
+             font-size: 0.85rem;
+             border: none !important;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+
+
+        .inner-container {
+            border-color: #fbf895;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;  /* Ensures that child elements like table headers are contained within the rounded corners */
+        }
+
+        /* Headers*/
+        .shopping-header, .apartment-header, .company-header {
+            font-weight: bold;
+            font-size: 1.0rem;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: white;
+        }
+        .shopping-header { color: #fae700; }
+        .apartment-header { color: #f744c0; }
+        .company-header { color: #36ea9f; }
+
+        .shopping-header:first-child {
+            border-top-left-radius: 10px;
+        }
+        .company-header:last-child {
+            border-top-right-radius: 10px;
+        }
+
+
+        /* Categories */
+        .shopping-category, .apartment-category, .company-category {
+            padding: 8px;
+            border-top: 1.2px solid black !important;
+            border-bottom: 1.2px solid black !important;
+        }
+        .shopping-category { background-color: #fdfbb6; }
+        .apartment-category { background-color: #fec7ed; }
+        .company-category { background-color: #cff8e7; }
+
+
+        /* Container styling for rounded boxes around each section */
+        .shopping-total {
+            border-top: 3px solid #fbf895 !important; /* Yellow for Shopping */
+        }
+        .apartment-total {
+            border-top: 3px solid #ffade6 !important; /* Pink for Apartment Bills */
+        }
+        .company-total {
+            border-top: 3px solid #b6e6d2 !important; /* Green for Company Fees */
+        }
+
+    </style>
+
+<h1>Expenses</h1>
+
+<div class="inner-container">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th colspan="6" class="shopping-header">Shopping</th>
+                <th colspan="6" class="apartment-header">Apartment Bills</th>
+                <th colspan="6" class="company-header">Company Fees</th>
+
+            </tr>
+            <tr>
+                <th class="shopping-category">No.</th>
+                <th class="shopping-category">Name</th>
+                <th class="shopping-category">Price</th>
+                <th class="shopping-category">VAT %</th>
+                <th class="shopping-category">VAT</th>
+                <th class="shopping-category">Netto</th>
+
+                <th class="apartment-category">No.</th>
+                <th class="apartment-category">Name</th>
+                <th class="apartment-category">Price</th>
+                <th class="apartment-category">VAT %</th>
+                <th class="apartment-category">VAT</th>
+                <th class="apartment-category">Netto</th>
+
+                <th class="company-category">No.</th>
+                <th class="company-category">Name</th>
+                <th class="company-category">Price</th>
+                <th class="company-category">VAT %</th>
+                <th class="company-category">VAT</th>
+                <th class="company-category">Netto</th>
+            </tr>
+        </thead>
+
+        <tbody>
+        {% for row in tables[0].to_dict(orient='records') %}
+            <tr>
+                <td>{{ row['Shopping Index'] }}</td>
+                <td>{{ row['Shopping Name'] }}</td>
+                <td>{{ row['Shopping Price'] }}</td>
+                <td>{{ row['Shopping VAT %'] }}</td>
+                <td>{{ row['Shopping VAT'] }}</td>
+                <td>{{ row['Shopping Netto'] }}</td>
+
+                <td>{{ row['Apartment Index'] }}</td>
+                <td>{{ row['Apartment Name'] }}</td>
+                <td>{{ row['Apartment Price'] }}</td>
+                <td>{{ row['Apartment VAT %'] }}</td>
+                <td>{{ row['Apartment VAT'] }}</td>
+                <td>{{ row['Apartment Netto'] }}</td>
+
+                <td>{{ row['Company Fees Index'] }}</td>
+                <td>{{ row['Company Fees Name'] }}</td>
+                <td>{{ row['Company Fees Price'] }}</td>
+                <td>{{ row['Company Fees VAT %'] }}</td>
+                <td>{{ row['Company Fees VAT'] }}</td>
+                <td>{{ row['Company Fees Netto'] }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2" style="color: #fae700;" class="shopping-total"><strong>Total</strong></td>
+                <td colspan="1" class="shopping-total"><strong>{{ "{:.2f}".format(total_shopping_price) }}</strong></td>
+                <td colspan="1" class="shopping-total"></td>
+                <td colspan="1" class="shopping-total"><strong>{{ "{:.2f}".format(total_shopping_vat) }}</strong></td>
+                <td colspan="1" class="shopping-total"><strong>{{ "{:.2f}".format(total_shopping_netto) }}</strong></td>
+
+                <td colspan="2" style="color: #f744c0;" class="apartment-total"><strong>Total</strong></td>
+                <td colspan="1" class="apartment-total"><strong>{{ "{:.2f}".format(total_apartment_price) }}</strong></td>
+                <td colspan="1" class="apartment-total"></td>
+                <td colspan="1" class="apartment-total"><strong>{{ "{:.2f}".format(total_apartment_vat) }}</strong></td>
+                <td colspan="1" class="apartment-total"><strong>{{ "{:.2f}".format(total_apartment_netto) }}</strong></td>
+
+                <td colspan="2" style="color: #36ea9f;" class="company-total"><strong>Total</strong></td>
+                <td colspan="1" class="company-total"><strong>{{ "{:.2f}".format(total_company_price) }}</strong></td>
+                <td colspan="1" class="company-total"></td>
+                <td colspan="1" class="company-total"><strong>{{ "{:.2f}".format(total_company_vat) }}</strong>  </td>
+                <td colspan="1" class="company-total"><strong>{{ "{:.2f}".format(total_company_netto) }}</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+{% endblock %}

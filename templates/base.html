@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Hotel Management System{% endblock %}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        body {
+            background: linear-gradient(to right, #f2f0f0, #652adb);
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: inherit;
+            z-index: -1;
+        }
+
+        .outer-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            max-width: 1000px;
+            width: 90%;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 1250px;
+            margin: 0px auto;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
+        .header-container {
+            width: 100%;
+            padding: 0px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 5px;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;  /* Gap between the main button and the small button */
+        }
+
+        .custom-nav-btn {
+            width: 180px;
+            margin: 5px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            padding: 10px 20px;
+            background-color: #652adb;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            text-align: center; /* Center text horizontally */
+            display: flex; /* Use flexbox for centering */
+            align-items: center; /* Center vertically */
+            justify-content: center; /* Center horizontally */
+        }
+
+        .custom-nav-btn:hover,
+        .custom-nav-btn:active,
+        .custom-nav-btn:focus {
+            background-color: #5a24c7;
+            color: white;
+        }
+
+        .small-buttons-container {
+            width: 180px;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            gap: 10px;
+            text-align: center; /* Center text horizontally */
+            align-items: center; /* Center vertically */
+        }
+
+        .custom-small-btn {
+            width: 180px;
+            font-size: 0.8rem;  /* Make font slightly smaller */
+            font-weight: bold;
+            padding: 5px 15px;  /* Adjust padding to make buttons smaller */
+            background-color: #652adb;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            text-align: center; /* Center text horizontally */
+            align-items: center; /* Center vertically */
+            display: flex;
+            justify-content: center;
+        }
+
+        .custom-small-btn:hover,
+        .custom-small-btn:active,
+        .custom-small-btn:focus {
+            background-color: #5a24c7;
+            color: white;
+        }
+
+        /* Year, Month, and Filter Button Styles */
+        .filter-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+            flex-wrap: nowrap; /* Ensure all elements are in the same row */
+        }
+
+        .year-pill,
+        .month-pill {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            border: 1px solid #ccc;
+            border-radius: 50px;
+            overflow: hidden;
+        }
+
+        .year-pill li,
+        .month-pill li {
+            padding: 5px 10px; /* Reduce padding to make pills smaller */
+            cursor: pointer;
+            border-right: 1px solid #ccc;
+            background-color: #f7f7f7;
+            transition: background-color 0.3s;
+            font-size: 0.9rem; /* Reduce font size slightly */
+        }
+
+        .year-pill li:hover,
+        .month-pill li:hover {
+            background-color: #e0e0e0;
+        }
+
+        .year-pill li.active,
+        .month-pill li.active {
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+        }
+
+        .year-pill li:last-child,
+        .month-pill li:last-child {
+            border-right: none;
+        }
+        .filter-button {
+            background-color: #b8e1f9;
+            color: black;
+            font-size: 0.9rem;
+            font-weight: bold;
+            border: none;
+            padding: 10px 20px; /* Set padding to match navigation buttons */
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-left: 10px;  /* Adds a small space between the pills and the button */
+            display: flex;
+            position: relative;
+            bottom: 8px;
+        }
+
+        .filter-button:hover {
+            background-color: #87CEEB;
+        }
+        .filter-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+            flex-wrap: nowrap;
+            height: 50px;
+        }
+
+        .selected-date-display {
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #652adb;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-container">
+        <header>
+            <h1 class="my-4">{% block page_title %}{% endblock %}</h1>
+            <!-- Shared Navigation Menu -->
+            <nav class="nav-container">
+                <div class="nav-item">
+                    <a href="{{ url_for('guests.show_guests') }}" class="custom-nav-btn">Guest Table</a>
+                    <a href="{{ url_for('guests.add_guest_form') }}" class="custom-small-btn">Add Guest</a>
+                </div>
+                <div class="nav-item">
+                    <a href="{{ url_for('expenses.show_expenses') }}" class="custom-nav-btn">Expenses</a>
+                    <a href="{{ url_for('expenses.add_expense_form') }}" class="custom-small-btn">Add Expense</a>
+                </div>
+                <a href="{{ url_for('settlement.settlement') }}" class="custom-nav-btn">Settlement</a>
+                <a href="{{ url_for('data_analysis.dashboard') }}" class="custom-nav-btn">Data Visualization</a>
+            </nav>
+            <!-- Choose Month and Year Section in a Single Row -->
+            <div class="filter-row">
+
+                <!-- Year Selector -->
+                <ul class="year-pill">
+                    <li id="year2023" data-year="2023" class="{% if year == '2023' %}active{% endif %}" onclick="filterByYear('2023')">2023</li>
+                    <li id="year2024" data-year="2024" class="{% if year == '2024' %}active{% endif %}" onclick="filterByYear('2024')">2024</li>
+                </ul>
+
+                <!-- Month Selector -->
+                <ul class="month-pill">
+                    <li id="january" data-month="01" class="{% if month == '01' %}active{% endif %}" onclick="filterByMonth('01')">January</li>
+                    <li id="february" data-month="02" class="{% if month == '02' %}active{% endif %}" onclick="filterByMonth('02')">February</li>
+                    <li id="march" data-month="03" class="{% if month == '03' %}active{% endif %}" onclick="filterByMonth('03')">March</li>
+                    <li id="april" data-month="04" class="{% if month == '04' %}active{% endif %}" onclick="filterByMonth('04')">April</li>
+                    <li id="may" data-month="05" class="{% if month == '05' %}active{% endif %}" onclick="filterByMonth('05')">May</li>
+                    <li id="june" data-month="06" class="{% if month == '06' %}active{% endif %}" onclick="filterByMonth('06')">June</li>
+                    <li id="july" data-month="07" class="{% if month == '07' %}active{% endif %}" onclick="filterByMonth('07')">July</li>
+                    <li id="august" data-month="08" class="{% if month == '08' %}active{% endif %}" onclick="filterByMonth('08')">August</li>
+                    <li id="september" data-month="09" class="{% if month == '09' %}active{% endif %}" onclick="filterByMonth('09')">September</li>
+                    <li id="october" data-month="10" class="{% if month == '10' %}active{% endif %}" onclick="filterByMonth('10')">October</li>
+                    <li id="november" data-month="11" class="{% if month == '11' %}active{% endif %}" onclick="filterByMonth('11')">November</li>
+                    <li id="december" data-month="12" class="{% if month == '12' %}active{% endif %}" onclick="filterByMonth('12')">December</li>
+                </ul>
+
+
+                <!-- Filter Button -->
+                <form action="{{ url_for('guests.filter_guests' if current_module == 'guests'
+                else 'expenses.filter_expenses' if current_module == 'expenses'
+                else 'data_analysis.filter_dashboard' if current_module == 'dashboard'
+                else 'settlement.filter_settlement' if current_module == 'settlement') }}" method="POST">
+                    <input type="hidden" id="month" name="month">
+                    <input type="hidden" id="year" name="year">
+                    <input type="submit" value="Filter" class="filter-button">
+                </form>
+            </div>
+        </header>
+
+        <!-- Content Block for Subtemplates -->
+        <div class="container">
+            {% block content %}{% endblock %}
+        </div>
+
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Initialize the filter buttons based on sessionStorage or default template data
+            initializeFilters();
+
+            // Add click event listeners for filter buttons
+            const monthButtons = document.querySelectorAll('.month-pill li');
+            monthButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const month = this.getAttribute('data-month');
+                    sessionStorage.setItem('selectedMonth', month);
+                    setActiveMonthButton(month);
+                });
+            });
+
+            const yearButtons = document.querySelectorAll('.year-pill li');
+            yearButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const year = this.getAttribute('data-year');
+                    sessionStorage.setItem('selectedYear', year);
+                    setActiveYearButton(year);
+                });
+            });
+
+            // Set filter button values based on sessionStorage or defaults from template
+            function initializeFilters() {
+                let selectedMonth = sessionStorage.getItem('selectedMonth');
+                let selectedYear = sessionStorage.getItem('selectedYear');
+
+                // If sessionStorage does not have a filter, use the values passed from the template
+                if (!selectedMonth || !selectedYear) {
+                    const defaultMonth = "{{ month }}";
+                    const defaultYear = "{{ year }}";
+
+                    if (!selectedMonth) {
+                        selectedMonth = defaultMonth;
+                        sessionStorage.setItem('selectedMonth', selectedMonth);
+                    }
+
+                    if (!selectedYear) {
+                        selectedYear = defaultYear;
+                        sessionStorage.setItem('selectedYear', selectedYear);
+                    }
+                }
+
+                setActiveMonthButton(selectedMonth);
+                setActiveYearButton(selectedYear);
+            }
+
+            function setActiveMonthButton(month) {
+                const monthButtons = document.querySelectorAll('.month-pill li');
+                monthButtons.forEach(button => {
+                    button.classList.remove('active');
+                    if (button.getAttribute('data-month') === month) {
+                        button.classList.add('active');
+                    }
+                });
+                document.getElementById('month').value = month;
+            }
+
+            function setActiveYearButton(year) {
+                const yearButtons = document.querySelectorAll('.year-pill li');
+                yearButtons.forEach(button => {
+                    button.classList.remove('active');
+                    if (button.getAttribute('data-year') === year) {
+                        button.classList.add('active');
+                    }
+                });
+                document.getElementById('year').value = year;
+            }
+        });
+    </script>
+
+<!--    <script>-->
+<!--        document.addEventListener("DOMContentLoaded", function () {-->
+<!--            // Initialize the filter buttons based on sessionStorage-->
+<!--            initializeFilters();-->
+
+<!--            // Add click event listeners for filter buttons-->
+<!--            const monthButtons = document.querySelectorAll('.month-pill li');-->
+<!--            monthButtons.forEach(button => {-->
+<!--                button.addEventListener('click', function () {-->
+<!--                    const month = this.getAttribute('data-month');-->
+<!--                    sessionStorage.setItem('selectedMonth', month);-->
+<!--                    setActiveMonthButton(month);-->
+<!--                });-->
+<!--            });-->
+
+<!--            const yearButtons = document.querySelectorAll('.year-pill li');-->
+<!--            yearButtons.forEach(button => {-->
+<!--                button.addEventListener('click', function () {-->
+<!--                    const year = this.getAttribute('data-year');-->
+<!--                    sessionStorage.setItem('selectedYear', year);-->
+<!--                    setActiveYearButton(year);-->
+<!--                });-->
+<!--            });-->
+
+<!--            // Set filter button values based on sessionStorage or defaults-->
+<!--            function initializeFilters() {-->
+<!--                const selectedMonth = sessionStorage.getItem('selectedMonth');-->
+<!--                const selectedYear = sessionStorage.getItem('selectedYear');-->
+
+<!--                if (selectedMonth) {-->
+<!--                    setActiveMonthButton(selectedMonth);-->
+<!--                }-->
+
+<!--                if (selectedYear) {-->
+<!--                    setActiveYearButton(selectedYear);-->
+<!--                }-->
+<!--            }-->
+
+<!--            function setActiveMonthButton(month) {-->
+<!--                const monthButtons = document.querySelectorAll('.month-pill li');-->
+<!--                monthButtons.forEach(button => {-->
+<!--                    button.classList.remove('active');-->
+<!--                    if (button.getAttribute('data-month') === month) {-->
+<!--                        button.classList.add('active');-->
+<!--                    }-->
+<!--                });-->
+<!--                document.getElementById('month').value = month;-->
+<!--            }-->
+
+<!--            function setActiveYearButton(year) {-->
+<!--                const yearButtons = document.querySelectorAll('.year-pill li');-->
+<!--                yearButtons.forEach(button => {-->
+<!--                    button.classList.remove('active');-->
+<!--                    if (button.getAttribute('data-year') === year) {-->
+<!--                        button.classList.add('active');-->
+<!--                    }-->
+<!--                });-->
+<!--                document.getElementById('year').value = year;-->
+<!--            }-->
+<!--        });-->
+<!--    </script>-->
+</body>
+
+</html>

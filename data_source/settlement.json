@@ -1,0 +1,684 @@
+{
+    "January 2023": {
+        "VAT": [
+            {
+                "Payable": "576.94",
+                "Deductible": "276.04",
+                "Settlement": "300.90",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "4827.06",
+                "Revenue": "4469.50",
+                "Expenses Net": "1650.14",
+                "Income": "2819.36",
+                "Tax base": "1502.82",
+                "Income tax": "0.00",
+                "Net profit": "1502.82"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "812.23",
+                "Disability Insurance": "332.88",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "69.49",
+                "Labour Fund": "101.94",
+                "Health Insurance": "314.10"
+            }
+        ]
+    },
+    "February 2023": {
+        "VAT": [
+            {
+                "Payable": "589.70",
+                "Deductible": "265.98",
+                "Settlement": "323.72",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "5127.34",
+                "Revenue": "4747.53",
+                "Expenses Net": "1856.49",
+                "Income": "2891.04",
+                "Tax base": "1574.50",
+                "Income tax": "0.00",
+                "Net profit": "1574.50"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "812.23",
+                "Disability Insurance": "332.88",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "69.49",
+                "Labour Fund": "101.94",
+                "Health Insurance": "314.10"
+            }
+        ]
+    },
+    "March 2023": {
+        "VAT": [
+            {
+                "Payable": "844.89",
+                "Deductible": "315.92",
+                "Settlement": "528.97",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "8112.91",
+                "Revenue": "7511.95",
+                "Expenses Net": "1823.57",
+                "Income": "5688.38",
+                "Tax base": "4371.84",
+                "Income tax": "0.00",
+                "Net profit": "4371.84"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "812.23",
+                "Disability Insurance": "332.88",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "69.49",
+                "Labour Fund": "101.94",
+                "Health Insurance": "511.95"
+            }
+        ]
+    },
+    "April 2023": {
+        "VAT": [
+            {
+                "Payable": "649.25",
+                "Deductible": "318.36",
+                "Settlement": "330.89",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "5401.00",
+                "Revenue": "5000.93",
+                "Expenses Net": "2099.19",
+                "Income": "2901.74",
+                "Tax base": "1585.20",
+                "Income tax": "0.00",
+                "Net profit": "1585.20"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "812.23",
+                "Disability Insurance": "332.88",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "69.49",
+                "Labour Fund": "101.94",
+                "Health Insurance": "314.10"
+            }
+        ]
+    },
+    "May 2023": {
+        "VAT": [
+            {
+                "Payable": "667.64",
+                "Deductible": "385.43",
+                "Settlement": "282.21",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "4731.13",
+                "Revenue": "4380.67",
+                "Expenses Net": "2125.80",
+                "Income": "2254.87",
+                "Tax base": "938.33",
+                "Income tax": "0.00",
+                "Net profit": "938.33"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "812.23",
+                "Disability Insurance": "332.88",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "69.49",
+                "Labour Fund": "101.94",
+                "Health Insurance": "314.10"
+            }
+        ]
+    },
+    "June 2023": {
+        "VAT": [
+            {
+                "Payable": "708.70",
+                "Deductible": "224.80",
+                "Settlement": "483.90",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "7315.13",
+                "Revenue": "6773.27",
+                "Expenses Net": "1722.36",
+                "Income": "5050.91",
+                "Tax base": "3734.37",
+                "Income tax": "0.00",
+                "Net profit": "3734.37"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "812.23",
+                "Disability Insurance": "332.88",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "69.49",
+                "Labour Fund": "101.94",
+                "Health Insurance": "454.58"
+            }
+        ]
+    },
+    "July 2023": {
+        "VAT": [
+            {
+                "Payable": "644.78",
+                "Deductible": "312.20",
+                "Settlement": "332.58",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "5014.04",
+                "Revenue": "4935.54",
+                "Expenses Net": "1807.40",
+                "Income": "3128.14",
+                "Tax base": "1811.60",
+                "Income tax": "0.00",
+                "Net profit": "1811.60"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "812.23",
+                "Disability Insurance": "332.88",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "69.49",
+                "Labour Fund": "101.94",
+                "Health Insurance": "314.10"
+            }
+        ]
+    },
+    "August 2023": {
+        "VAT": [
+            {
+                "Payable": "714.53",
+                "Deductible": "268.55",
+                "Settlement": "445.98",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "6777.82",
+                "Revenue": "6275.75",
+                "Expenses Net": "1882.69",
+                "Income": "4393.06",
+                "Tax base": "3076.52",
+                "Income tax": "0.00",
+                "Net profit": "3076.52"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "812.23",
+                "Disability Insurance": "332.88",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "69.49",
+                "Labour Fund": "101.94",
+                "Health Insurance": "395.38"
+            }
+        ]
+    },
+    "September 2023": {
+        "VAT": [
+            {
+                "Payable": "859.42",
+                "Deductible": "401.87",
+                "Settlement": "457.55",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "7300.34",
+                "Revenue": "6759.58",
+                "Expenses Net": "2197.28",
+                "Income": "4562.30",
+                "Tax base": "3245.76",
+                "Income tax": "0.00",
+                "Net profit": "3245.76"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "812.23",
+                "Disability Insurance": "332.88",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "69.49",
+                "Labour Fund": "101.94",
+                "Health Insurance": "410.61"
+            }
+        ]
+    },
+    "October 2023": {
+        "VAT": [
+            {
+                "Payable": "663.47",
+                "Deductible": "312.57",
+                "Settlement": "350.90",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "5570.04",
+                "Revenue": "5157.44",
+                "Expenses Net": "2059.02",
+                "Income": "3098.42",
+                "Tax base": "1781.88",
+                "Income tax": "0.00",
+                "Net profit": "1781.88"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "812.23",
+                "Disability Insurance": "332.88",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "69.49",
+                "Labour Fund": "101.94",
+                "Health Insurance": "314.10"
+            }
+        ]
+    },
+    "November 2023": {
+        "VAT": [
+            {
+                "Payable": "585.80",
+                "Deductible": "219.22",
+                "Settlement": "366.58",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "5996.45",
+                "Revenue": "5552.27",
+                "Expenses Net": "1403.14",
+                "Income": "4149.13",
+                "Tax base": "2832.59",
+                "Income tax": "0.00",
+                "Net profit": "2832.59"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "812.23",
+                "Disability Insurance": "332.88",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "69.49",
+                "Labour Fund": "101.94",
+                "Health Insurance": "373.42"
+            }
+        ]
+    },
+    "December 2023": {
+        "VAT": [
+            {
+                "Payable": "444.38",
+                "Deductible": "206.69",
+                "Settlement": "237.69",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "3991.30",
+                "Revenue": "3695.65",
+                "Expenses Net": "1633.64",
+                "Income": "2062.01",
+                "Tax base": "745.47",
+                "Income tax": "0.00",
+                "Net profit": "745.47"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "812.23",
+                "Disability Insurance": "332.88",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "69.49",
+                "Labour Fund": "101.94",
+                "Health Insurance": "314.10"
+            }
+        ]
+    },
+    "January 2024": {
+        "VAT": [
+            {
+                "Payable": "937.66",
+                "Deductible": "374.73",
+                "Settlement": "562.93",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "8697.63",
+                "Revenue": "8053.36",
+                "Expenses Net": "2366.30",
+                "Income": "5687.06",
+                "Tax base": "4201.75",
+                "Income tax": "0.00",
+                "Net profit": "4201.75"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "916.35",
+                "Disability Insurance": "375.55",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "78.40",
+                "Labour Fund": "115.01",
+                "Health Insurance": "511.84"
+            }
+        ]
+    },
+    "February 2024": {
+        "VAT": [
+            {
+                "Payable": "879.74",
+                "Deductible": "299.95",
+                "Settlement": "579.79",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "8811.80",
+                "Revenue": "8159.08",
+                "Expenses Net": "2159.16",
+                "Income": "5999.92",
+                "Tax base": "4514.61",
+                "Income tax": "0.00",
+                "Net profit": "4514.61"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "916.35",
+                "Disability Insurance": "375.55",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "78.40",
+                "Labour Fund": "115.01",
+                "Health Insurance": "539.99"
+            }
+        ]
+    },
+    "March 2024": {
+        "VAT": [
+            {
+                "Payable": "846.58",
+                "Deductible": "407.76",
+                "Settlement": "438.82",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "7178.68",
+                "Revenue": "6646.93",
+                "Expenses Net": "2272.91",
+                "Income": "4374.02",
+                "Tax base": "2888.71",
+                "Income tax": "0.00",
+                "Net profit": "2888.71"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "916.35",
+                "Disability Insurance": "375.55",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "78.40",
+                "Labour Fund": "115.01",
+                "Health Insurance": "393.66"
+            }
+        ]
+    },
+    "April 2024": {
+        "VAT": [
+            {
+                "Payable": "786.35",
+                "Deductible": "343.12",
+                "Settlement": "443.23",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "6816.83",
+                "Revenue": "6311.89",
+                "Expenses Net": "2301.74",
+                "Income": "4010.15",
+                "Tax base": "2524.84",
+                "Income tax": "0.00",
+                "Net profit": "2524.84"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "916.35",
+                "Disability Insurance": "375.55",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "78.40",
+                "Labour Fund": "115.01",
+                "Health Insurance": "381.78"
+            }
+        ]
+    },
+    "May 2024": {
+        "VAT": [
+            {
+                "Payable": "833.43",
+                "Deductible": "391.44",
+                "Settlement": "441.99",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "7966.34",
+                "Revenue": "7376.25",
+                "Expenses Net": "2201.84",
+                "Income": "5174.41",
+                "Tax base": "3689.10",
+                "Income tax": "0.00",
+                "Net profit": "3689.10"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "916.35",
+                "Disability Insurance": "375.55",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "78.40",
+                "Labour Fund": "115.01",
+                "Health Insurance": "465.70"
+            }
+        ]
+    },
+    "June 2024": {
+        "VAT": [
+            {
+                "Payable": "832.59",
+                "Deductible": "358.13",
+                "Settlement": "474.46",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "7478.17",
+                "Revenue": "6924.24",
+                "Expenses Net": "2294.07",
+                "Income": "4630.17",
+                "Tax base": "3144.86",
+                "Income tax": "0.00",
+                "Net profit": "3144.86"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "916.35",
+                "Disability Insurance": "375.55",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "78.40",
+                "Labour Fund": "115.01",
+                "Health Insurance": "416.72"
+            }
+        ]
+    },
+    "July 2024": {
+        "VAT": [
+            {
+                "Payable": "239.02",
+                "Deductible": "205.82",
+                "Settlement": "33.20",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "751.18",
+                "Revenue": "695.54",
+                "Expenses Net": "1894.86",
+                "Income": "-1199.32",
+                "Tax base": "-2684.63",
+                "Income tax": "0.00",
+                "Net profit": "-2684.63"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "916.35",
+                "Disability Insurance": "375.55",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "78.40",
+                "Labour Fund": "115.01",
+                "Health Insurance": "381.78"
+            }
+        ]
+    },
+    "August 2024": {
+        "VAT": [
+            {
+                "Payable": "1024.85",
+                "Deductible": "324.66",
+                "Settlement": "700.19",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "10839.64",
+                "Revenue": "9743.79",
+                "Expenses Net": "2362.58",
+                "Income": "7381.21",
+                "Tax base": "5895.90",
+                "Income tax": "0.00",
+                "Net profit": "5895.90"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "916.35",
+                "Disability Insurance": "375.55",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "78.40",
+                "Labour Fund": "115.01",
+                "Health Insurance": "664.31"
+            }
+        ]
+    },
+    "September 2024": {
+        "VAT": [
+            {
+                "Payable": "812.38",
+                "Deductible": "370.75",
+                "Settlement": "441.63",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "6840.62",
+                "Revenue": "6333.91",
+                "Expenses Net": "2111.98",
+                "Income": "4221.93",
+                "Tax base": "2736.62",
+                "Income tax": "0.00",
+                "Net profit": "2736.62"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "916.35",
+                "Disability Insurance": "375.55",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "78.40",
+                "Labour Fund": "115.01",
+                "Health Insurance": "381.78"
+            }
+        ]
+    },
+    "October 2024": {
+        "VAT": [
+            {
+                "Payable": "937.66",
+                "Deductible": "374.73",
+                "Settlement": "562.93",
+                "Surplus": "0.00"
+            }
+        ],
+        "Income Settlement": [
+            {
+                "Total Sales": "8697.63",
+                "Revenue": "8053.36",
+                "Expenses Net": "2366.30",
+                "Income": "5687.06",
+                "Tax base": "4201.75",
+                "Income tax": "0.00",
+                "Net profit": "4201.75"
+            }
+        ],
+        "ZUS": [
+            {
+                "Retirement Insurance": "916.35",
+                "Disability Insurance": "375.55",
+                "Sickness Insurance": 0,
+                "Accident Insurance": "78.40",
+                "Labour Fund": "115.01",
+                "Health Insurance": "511.84"
+            }
+        ]
+    }
+}

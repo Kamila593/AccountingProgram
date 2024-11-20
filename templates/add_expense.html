@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Expense</title>
+</head>
+
+<body>
+    <h2>Add a new expense</h2>
+    <form action="{{ url_for('expenses.add_expense') }}" method="POST">
+        <div class="form-group">
+            <label for="category">Category</label>
+            <select class="form-control" id="category" name="category" required>
+                <option value="Shopping">Shopping</option>
+                <option value="Apartment Bills">Apartment Bills</option>
+                <option value="Company Fees">Company Fees</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="name">Expense Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="price">Price</label>
+            <input type="number" step="0.01" class="form-control" id="price" name="price" required>
+        </div>
+        <div class="form-group">
+            <label for="monthname">Month Name</label>
+            <input type="text" class="form-control" id="monthname" name="monthname" required>
+        </div>
+        <div class="form-group">
+            <label for="vat_perc">VAT %</label>
+            <input type="text" class="form-control" id="vat_perc" name="vat_perc" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add Expense</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,389 @@
+{% extends "base.html" %}
+
+{% block title %}Guest Information{% endblock %}
+
+{% block content %}
+    <style>
+        table, td {
+            border: none !important;
+            border-spacing: 0;
+        }
+
+        table {
+            border-collapse: separate;
+            border-spacing: 0;
+            width: 100%;
+            border: 1.2px solid white !important;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        td, tr {
+            padding: 8px;
+            text-align: left;
+            font-size: 0.8rem;
+            border: 1.2px solid white !important;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-size: 0.9rem;
+            border: 1.2px solid white !important;
+        }
+
+        .booking-conditions-header { color: #652adb; background-color: white; }
+        .discounts-group-header { color: #f369fc; background-color: white; }
+        .what-platform-header { color: #f7e42f; background-color: white; }
+        .what-government-header { color: #38fbf2; background-color: white; }
+
+        .guest-header { background-color: #7880f9; text-align: center; vertical-align: top !important; }
+        .promotion-header { background-color: #f686fe; text-align: center; vertical-align: top !important; }
+        .total-price-header { background-color: #e928f7; text-align: center; vertical-align: top !important; }
+        .commission-header { background-color: #fcec5a; text-align: center; vertical-align: top !important; }
+        .paycheck-header { background-color: #ffe422; text-align: center; vertical-align: top !important; }
+        .vat-header { background-color: #38fbf2; text-align: center; vertical-align: top !important; }
+        .netto-header { background-color: #27f5ec; text-align: center; vertical-align: top !important; }
+
+        .guest { background-color: #f1f2ff; }
+        .promotion, .daily-rate { background-color: #feedff; }
+        .total-price { background-color: #fee4ff; }
+        .commission { background-color: #fffabb; }
+        .paycheck { background-color: #fff5af; }
+        .vat { background-color: #ebfffe; }
+        .netto { background-color: #d6fefd; }
+
+        th:first-child {
+            border-top-left-radius: 10px;
+        }
+        th:last-child {
+            border-top-right-radius: 10px;
+        }
+        td:first-child {
+            border-bottom-left-radius: 10px;
+        }
+        td:last-child {
+            border-bottom-right-radius: 10px;
+        }
+
+        .content-container {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        .toggle-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 300px; /* Optional: Set a max width to keep the toggle buttons organized */
+            order: 2;
+        }
+        .column-toggle-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .column-toggle-group label {
+            cursor: pointer;
+        }
+
+        .table td.empty-top {
+            border-top: 0 !important;
+        }
+
+        .table td.empty-bottom {
+            border-bottom: 0 !important;
+        }
+
+        .table td.empty-both {
+            border-top: 0 !important;
+            border-bottom: 0 !important;
+        }
+
+        .table td.empty-cell {
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+            height: 0 !important;
+            margin: 0 !important;
+        }
+
+
+        /* If the table uses border-collapse, we can try to reset it specifically for empty cells */
+        .table {
+            border-collapse: separate; /* Reset to separate, which makes it easier to control individual borders */
+        }
+
+
+    </style>
+
+    <h1>Guest Information</h1>
+
+
+    <div class="content-container">
+        <table class="table">
+            <thead>
+                <tr id="category-header">
+                    <th colspan="5" class="booking-conditions-header">Booking Conditions</th>
+                    <th colspan="5" class="discounts-group-header">Discounts and Total Price</th>
+                    <th colspan="6" class="what-platform-header">Platform Deductions</th>
+                    <th colspan="3" class="what-government-header">Government Deductions</th>
+                </tr>
+                <tr>
+                    <th class="guest-header">Guest</th>
+                    <th class="guest-header">Date</th>
+                    <th class="guest-header">Standard</th>
+                    <th class="guest-header">No. of People</th>
+                    <th class="guest-header">Multiplier</th>
+                    <th class="promotion-header">Offer</th>
+                    <th class="promotion-header">Genius</th>
+                    <th class="promotion-header">Total Promotion</th>
+                    <th class="total-price-header">Daily Rate</th>
+                    <th class="total-price-header">Total Price</th>
+                    <th class="commission-header">Comm. %</th>
+                    <th class="commission-header">Comm.</th>
+                    <th class="commission-header">Trans. Fee</th>
+                    <th class="commission-header">Comm. + Fee</th>
+                    <th class="commission-header">Total Charge</th>
+                    <th class="paycheck-header">Paycheck</th>
+                    <th class="vat-header">VAT 8%</th>
+                    <th class="vat-header">VAT 23%</th>
+                    <th class="netto-header">Netto</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for row in tables[0].to_dict(orient='records') %}
+                    <tr>
+                        <td class="guest">{{ row['Guest'] }}</td>
+                        <td class="guest">{{ row['Date'] }}</td>
+                        <td class="guest">{{ row['Standard'] }}</td>
+                        <td class="guest">{{ row['Number of people'] }}</td>
+                        <td class="guest">{{ row['Multiplier'] }}</td>
+                        <td class="promotion">{{ row['Offer'] }}</td>
+                        <td class="promotion">{{ row['Genius'] }}</td>
+                        <td class="promotion">{{ row['Total Promotion %'] }}</td>
+                        <td class="total-price">{{ row['Daily Rate'] }}</td>
+
+                        <td class="total-price
+                            {% if row['row_position_in_group'] == 0 and row['group_size'] > 1 %}
+                                empty-bottom
+                            {% elif row['row_position_in_group'] == row['group_size'] - 1 and row['group_size'] > 1 %}
+                                empty-top
+                            {% elif 0 < row['row_position_in_group'] < row['group_size'] - 1 %}
+                                empty-both
+                            {% endif %}
+                        ">
+                            {{ row['Total Price'] }}
+                        </td>
+
+                        <td class="commission">{{ row['Commission %'] }}</td>
+                        <td class="commission">{{ "{:.2f}".format(row['Commission']) }}</td>
+                        <td class="commission">{{ "{:.2f}".format(row['Transaction Fee']) }}</td>
+                        <td class="commission">{{ "{:.2f}".format(row['Commission + Fee']) }}</td>
+
+                        <td class="commission
+                            {% if row['row_position_in_group'] == 0 and row['group_size'] > 1 %}
+                                empty-bottom
+                            {% elif row['row_position_in_group'] == row['group_size'] - 1 and row['group_size'] > 1 %}
+                                empty-top
+                            {% elif 0 < row['row_position_in_group'] < row['group_size'] - 1 %}
+                                empty-both
+                            {% endif %}
+                        ">
+                            {{ row['Total Commission + Fee'] }}
+                        </td>
+
+                        <td class="paycheck
+                            {% if row['row_position_in_group'] == 0 and row['group_size'] > 1 %}
+                                empty-bottom
+                            {% elif row['row_position_in_group'] == row['group_size'] - 1 and row['group_size'] > 1 %}
+                                empty-top
+                            {% elif 0 < row['row_position_in_group'] < row['group_size'] - 1 %}
+                                empty-both
+                            {% endif %}
+                        ">
+                            {{ row['Paycheck'] }}
+                        </td>
+
+                        <td class="vat
+                            {% if row['row_position_in_group'] == 0 and row['group_size'] > 1 %}
+                                empty-bottom
+                            {% elif row['row_position_in_group'] == row['group_size'] - 1 and row['group_size'] > 1 %}
+                                empty-top
+                            {% elif 0 < row['row_position_in_group'] < row['group_size'] - 1 %}
+                                empty-both
+                            {% endif %}
+                        ">
+                            {{ row['VAT 8%'] }}
+                        </td>
+
+                        <td class="vat
+                            {% if row['row_position_in_group'] == 0 and row['group_size'] > 1 %}
+                                empty-bottom
+                            {% elif row['row_position_in_group'] == row['group_size'] - 1 and row['group_size'] > 1 %}
+                                empty-top
+                            {% elif 0 < row['row_position_in_group'] < row['group_size'] - 1 %}
+                                empty-both
+                            {% endif %}
+                        ">
+                            {{ row['VAT 23%'] }}
+                        </td>
+
+                        <td class="netto
+                            {% if row['row_position_in_group'] == 0 and row['group_size'] > 1 %}
+                                empty-bottom
+                            {% elif row['row_position_in_group'] == row['group_size'] - 1 and row['group_size'] > 1 %}
+                                empty-top
+                            {% elif 0 < row['row_position_in_group'] < row['group_size'] - 1 %}
+                                empty-both
+                            {% endif %}
+                        ">
+                            {{ row['Netto'] }}
+                        </td>
+
+                    </tr>
+                {% endfor %}
+            </tbody>
+
+        </table>
+
+        <div class="toggle-container">
+            <div class="column-toggle-group">
+                <label><input type="checkbox" class="column-checkbox" data-column="0" checked> Guest</label>
+                <label><input type="checkbox" class="column-checkbox" data-column="1" checked> Date</label>
+                <label><input type="checkbox" class="column-checkbox" data-column="2" checked> Standard</label>
+                <label><input type="checkbox" class="column-checkbox" data-column="3" checked> No. of People</label>
+                <label><input type="checkbox" class="column-checkbox" data-column="4"> Multiplier</label>
+            </div>
+
+            <!-- Second Group -->
+            <div class="column-group">
+                <label><input type="checkbox" class="column-checkbox" data-column="5" checked> Offer</label>
+                <label><input type="checkbox" class="column-checkbox" data-column="6" checked> Genius</label>
+                <label><input type="checkbox" class="column-checkbox" data-column="7" checked> Total Promotion</label>
+                <label><input type="checkbox" class="column-checkbox" data-column="8" checked> Daily Rate</label>
+                <label><input type="checkbox" class="column-checkbox" data-column="9" checked> Total Price</label>
+            </div>
+
+            <!-- Third Group -->
+            <div class="column-group">
+                <label><input type="checkbox" class="column-checkbox" data-column="10" checked> Comm. %</label>
+                <label><input type="checkbox" class="column-checkbox" data-column="11"> Comm.</label>
+                <label><input type="checkbox" class="column-checkbox" data-column="12"> Trans. Fee</label>
+                <label><input type="checkbox" class="column-checkbox" data-column="13" checked> Commission + Fee</label>
+                <label><input type="checkbox" class="column-checkbox" data-column="14" checked> Total Charge</label>
+                <label><input type="checkbox" class="column-checkbox" data-column="15" checked> Paycheck</label>
+            </div>
+
+            <!-- Fourth Group -->
+            <div class="column-group">
+                <label><input type="checkbox" class="column-checkbox" data-column="16" checked> VAT 8%</label>
+                <label><input type="checkbox" class="column-checkbox" data-column="17" checked> VAT 23%</label>
+                <label><input type="checkbox" class="column-checkbox" data-column="18" checked> Netto</label>
+            </div>
+        </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Function to initialize table columns based on checkbox states from localStorage
+        function initializeTable() {
+            // Load column states from localStorage
+            const columnStates = JSON.parse(localStorage.getItem('columnVisibility')) || {};
+
+            // Set the state of each checkbox based on localStorage and update table
+            document.querySelectorAll('.column-checkbox').forEach(function (checkbox) {
+                const column = checkbox.getAttribute('data-column');
+
+                if (column in columnStates) {
+                    checkbox.checked = columnStates[column];
+                }
+
+                // Set initial visibility of cells in the specified column
+                toggleColumnVisibility(column, checkbox.checked);
+            });
+
+            updateHeaderColspan();
+        }
+
+        // Function to toggle visibility of a column
+        function toggleColumnVisibility(column, isVisible) {
+            const table = document.querySelector('table');
+            table.querySelectorAll('tr').forEach(function (row) {
+                if (row.cells[column]) {
+                    row.cells[column].style.display = isVisible ? '' : 'none';
+                }
+            });
+        }
+
+        // Function to save the state of column visibility to localStorage
+        function saveColumnVisibility() {
+            const columnStates = {};
+            document.querySelectorAll('.column-checkbox').forEach(function (checkbox) {
+                const column = checkbox.getAttribute('data-column');
+                columnStates[column] = checkbox.checked;
+            });
+            localStorage.setItem('columnVisibility', JSON.stringify(columnStates));
+        }
+
+        // Function to update colspan for each group header dynamically
+        function updateHeaderColspan() {
+            // Define header groups and corresponding columns
+            const headerGroups = [
+                {
+                    element: document.querySelector('.booking-conditions-header'),
+                    columns: [0, 1, 2, 3, 4]  // Guest, Date, Standard, No. of People, Multiplier
+                },
+                {
+                    element: document.querySelector('.discounts-group-header'),
+                    columns: [5, 6, 7, 8, 9]  // Offer, Genius, Total Promotion, Daily Rate, Total Price
+                },
+                {
+                    element: document.querySelector('.what-platform-header'),
+                    columns: [10, 11, 12, 13, 14, 15]  // Comm. %, Comm., Trans. Fee, Comm. + Fee, Total Charge, Paycheck
+                },
+                {
+                    element: document.querySelector('.what-government-header'),
+                    columns: [16, 17, 18]  // VAT 8%, VAT 23%, Netto
+                }
+            ];
+
+            // Update each group's colspan based on visible columns
+            headerGroups.forEach(function (group) {
+                let visibleColumnsCount = 0;
+
+                group.columns.forEach(function (columnIndex) {
+                    const checkbox = document.querySelector(`.column-checkbox[data-column="${columnIndex}"]`);
+                    if (checkbox && checkbox.checked) {
+                        visibleColumnsCount++;
+                    }
+                });
+
+                if (group.element) {
+                    group.element.colSpan = visibleColumnsCount;
+                    group.element.style.display = visibleColumnsCount > 0 ? '' : 'none';
+                }
+            });
+        }
+
+        // Event listener to handle column checkbox changes
+        document.querySelectorAll('.column-checkbox').forEach(function (checkbox) {
+            checkbox.addEventListener('change', function () {
+                const column = this.getAttribute('data-column');
+                const isVisible = this.checked;
+
+                // Toggle visibility of cells in the specified column
+                toggleColumnVisibility(column, isVisible);
+
+                // Save the updated column visibility state
+                saveColumnVisibility();
+
+                // Update header colspans after any change
+                updateHeaderColspan();
+            });
+        });
+
+        // Initialize the table on page load
+        initializeTable();
+    });
+</script>
+
+{% endblock %}

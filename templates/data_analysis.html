@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block title %}Data Analysis{% endblock %}
+
+{% block content %}
+
+<head>
+    <style>
+        .mode-switch {
+            display: flex;
+            gap: 0; /* No gap to ensure buttons are joined together seamlessly */
+            margin-bottom: 20px;
+            justify-content: flex-end; /* Move buttons to the right side */
+        }
+
+        .toggle-button {
+            border: 1px solid #ccc;
+            border-right: none; /* Remove the right border for joined effect, except for the last button */
+            padding: 10px 25px;
+            cursor: pointer;
+            background-color: #f0f0f0;
+            transition: background-color 0.3s;
+            color: black;
+            font-weight: normal;
+        }
+
+        .toggle-button.active {
+            background-color: #707070; /* Dark grey when active */
+            color: white;
+            font-weight: bold;
+        }
+
+        .toggle-button:hover {
+            background-color: #d3d3d3; /* Light grey when hovered */
+            color: black;
+        }
+
+        .toggle-button.first-child {
+            border-radius: 20px 0 0 20px; /* Round left corners for first button */
+        }
+
+        .toggle-button.last-child {
+            border-radius: 0 20px 20px 0; /* Round right corners for last button */
+            border-right: 1px solid #ccc; /* Only add right border to the last button */
+        }
+
+    </style>
+</head>
+
+<h1>Data Analysis</h1>
+
+<!-- Mode Switch -->
+<div class="mode-switch">
+    <form action="{{ url_for('data_analysis.dashboard_mode') }}" method="POST">
+        <input type="hidden" name="mode" value="accounting">
+        <button type="submit" id="accountingView" class="toggle-button {% if mode == 'accounting' %}active{% endif %} first-child">Accounting View</button>
+    </form>
+    <form action="{{ url_for('data_analysis.dashboard_mode') }}" method="POST">
+        <input type="hidden" name="mode" value="reservation">
+        <button type="submit" id="reservationView" class="toggle-button {% if mode == 'reservation' %}active{% endif %} last-child">Reservation View</button>
+    </form>
+</div>
+
+<div id="graph"></div>
+
+<!-- Plotly chart rendering -->
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script type="text/javascript">
+    var graphData = {{ graph_json | safe }};
+    Plotly.newPlot('graph', graphData.data, graphData.layout);
+
+    // JavaScript to handle mode switching
+    function setMode(mode) {
+
+        if (mode === 'accounting') {
+            document.getElementById('accountingView').classList.add('active');
+            window.location.href = "/dashboard?mode=accounting";
+        } else if (mode === 'reservation') {
+            document.getElementById('reservationView').classList.add('active');
+            window.location.href = "/dashboard?mode=reservation";
+        }
+    }
+</script>
+{% endblock %}
+

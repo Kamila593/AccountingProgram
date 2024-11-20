@@ -1,0 +1,738 @@
+{
+    "January 2023": {
+        "Shopping": [
+            {
+                "Name": "soap",
+                "Price": 8,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "water",
+                "Price": 30.0,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 450,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 265,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "February 2023": {
+        "Shopping": [
+            {
+                "Name": "washing powder",
+                "Price": 35,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 450,
+                "VAT %": ""
+            },
+            {
+                "Name": "electricity",
+                "Price": 175,
+                "VAT %": ""
+            },
+            {
+                "Name": "Gas",
+                "Price": 75,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 265,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "March 2023": {
+        "Shopping": [
+            {
+                "Name": "pillows",
+                "Price": 120.0,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 450,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 265,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "April 2023": {
+        "Shopping": [
+            {
+                "Name": "coffee",
+                "Price": 65,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "tea",
+                "Price": 40,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 450,
+                "VAT %": ""
+            },
+            {
+                "Name": "electricity",
+                "Price": 185,
+                "VAT %": ""
+            },
+            {
+                "Name": "Gas",
+                "Price": 80,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 265,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "May 2023": {
+        "Shopping": [
+            {
+                "Name": "blanket",
+                "Price": 100.0,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 450,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 265,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "June 2023": {
+        "Shopping": [
+            {
+                "Name": "paper towels",
+                "Price": 20,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "toiler paper",
+                "Price": 25,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 450,
+                "VAT %": ""
+            },
+            {
+                "Name": "electricity",
+                "Price": 205,
+                "VAT %": ""
+            },
+            {
+                "Name": "Gas",
+                "Price": 90,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 265,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "July 2023": {
+        "Shopping": [
+            {
+                "Name": "fabric softener",
+                "Price": 38,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "water",
+                "Price": 30.0,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 450,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 265,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "August 2023": {
+        "Shopping": [
+            {
+                "Name": "cloths",
+                "Price": 35,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 450,
+                "VAT %": ""
+            },
+            {
+                "Name": "electricity",
+                "Price": 195,
+                "VAT %": ""
+            },
+            {
+                "Name": "Gas",
+                "Price": 70,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 265,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "September 2023": {
+        "Shopping": [
+            {
+                "Name": "towels",
+                "Price": 180,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 450,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 265,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "October 2023": {
+        "Shopping": [
+            {
+                "Name": "water",
+                "Price": 65,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 450,
+                "VAT %": ""
+            },
+            {
+                "Name": "electricity",
+                "Price": 170,
+                "VAT %": ""
+            },
+            {
+                "Name": "Gas",
+                "Price": 80,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 265,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "November 2023": {
+        "Shopping": [
+            {
+                "Name": "cushions",
+                "Price": 100.0,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "pan",
+                "Price": 50.0,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 450,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 265,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "December 2023": {
+        "Shopping": [
+            {
+                "Name": "paper towels",
+                "Price": 20,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "toiler paper",
+                "Price": 25,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 450,
+                "VAT %": ""
+            },
+            {
+                "Name": "electricity",
+                "Price": 195,
+                "VAT %": ""
+            },
+            {
+                "Name": "Gas",
+                "Price": 90,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 265,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "January 2024": {
+        "Shopping": [
+            {
+                "Name": "toilet paper",
+                "Price": 20,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "soap",
+                "Price": 8,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "towel",
+                "Price": 50.0,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "water",
+                "Price": 20.0,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 500,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 300,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "February 2024": {
+        "Shopping": [
+            {
+                "Name": "washing powder",
+                "Price": 70,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "paper towels",
+                "Price": 20,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 500,
+                "VAT %": ""
+            },
+            {
+                "Name": "electricity",
+                "Price": 265,
+                "VAT %": ""
+            },
+            {
+                "Name": "Gas",
+                "Price": 90,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 300,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "March 2024": {
+        "Shopping": [
+            {
+                "Name": "washing powder",
+                "Price": 75.0,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "paper towels",
+                "Price": 20.0,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "tea",
+                "Price": 90.0,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "fabric softener",
+                "Price": 12.0,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 500,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 300,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "April 2024": {
+        "Shopping": [
+            {
+                "Name": "toilet paper",
+                "Price": 30,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 500.0,
+                "VAT %": ""
+            },
+            {
+                "Name": "electricity",
+                "Price": 220,
+                "VAT %": ""
+            },
+            {
+                "Name": "Gas",
+                "Price": 90,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 300,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "May 2024": {
+        "Shopping": [
+            {
+                "Name": "photographer",
+                "Price": 492.0,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 500,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 300,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "June 2024": {
+        "Shopping": [
+            {
+                "Name": "washing powder",
+                "Price": 55,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "cofee",
+                "Price": 40,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "water",
+                "Price": 30.0,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 500.0,
+                "VAT %": ""
+            },
+            {
+                "Name": "gas",
+                "Price": 62.0,
+                "VAT %": ""
+            },
+            {
+                "Name": "electricity",
+                "Price": 175.0,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 300.0,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "July 2024": {
+        "Shopping": [
+            {
+                "Name": "towels",
+                "Price": 100.0,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "water",
+                "Price": 20.0,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 500,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "administration fee",
+                "Price": 500.0,
+                "VAT %": ""
+            }
+        ]
+    },
+    "August 2024": {
+        "Shopping": [
+            {
+                "Name": "water",
+                "Price": 23.2,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "toilet paper",
+                "Price": 12.49,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "trash bags",
+                "Price": 13.47,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "glass cleaner",
+                "Price": 24.99,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "plates",
+                "Price": 49.96,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 550.0,
+                "VAT %": "0%"
+            },
+            {
+                "Name": "electricity",
+                "Price": 293.0,
+                "VAT %": "0%"
+            },
+            {
+                "Name": "gas",
+                "Price": 108.0,
+                "VAT %": "0%"
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 300.0,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "September 2024": {
+        "Shopping": [
+            {
+                "Name": "toilet paper",
+                "Price": 20,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "soap",
+                "Price": 8,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "water",
+                "Price": 20.0,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 500,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 300,
+                "VAT %": "23%"
+            }
+        ]
+    },
+    "October 2024": {
+        "Shopping": [
+            {
+                "Name": "washing powder",
+                "Price": 55,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "tea",
+                "Price": 50,
+                "VAT %": "23%"
+            },
+            {
+                "Name": "water",
+                "Price": 30.0,
+                "VAT %": "23%"
+            }
+        ],
+        "Apartment Bills": [
+            {
+                "Name": "administrative fee",
+                "Price": 500.0,
+                "VAT %": ""
+            },
+            {
+                "Name": "gas",
+                "Price": 62.0,
+                "VAT %": ""
+            },
+            {
+                "Name": "electricity",
+                "Price": 175.0,
+                "VAT %": ""
+            }
+        ],
+        "Company Fees": [
+            {
+                "Name": "accountant",
+                "Price": 300.0,
+                "VAT %": "23%"
+            }
+        ]
+    }
+}
